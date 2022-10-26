@@ -1,0 +1,2338 @@
+1.
+Query: search=* $filter=(role eq "developer" and level eq "beginner")
+Result:
+{
+  "@odata.context": "https://anhth-ai-enriched-corporate-search-service.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 2.4784205,
+      "Key": "Y29tcGFueS1tb29kbGU5NzAwZTFkYy1iMjkzLTQzMDYtOWUxYi0wZDM0NTg2M2RiNTQ1",
+      "description": "This course will teach you the specific ways our company uses Git. You will learn details for comments, branching, pull requests, and other procsses",
+      "duration": 3,
+      "instructor": "Claudia Blackman",
+      "level": "beginner",
+      "product": "git",
+      "rating_average": 4.5,
+      "rating_count": 125,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "Git Workflow ",
+      "url": "https://www.example.com/course3",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm4wMWMzZTgwMi00NjdhLTRmYTYtODI4ZC01ZTdlNWE2YTVkMjE1",
+      "description": "Explore two capabilities in the DevOps taxonomy, Continuous Collaboration and Continuous Improvement.",
+      "duration": 17,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.7,
+      "rating_count": 1425,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Characterize DevOps Continuous Collaboration and Continuous Improvement",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/characterize-devops-continous-collaboration-improvement/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm4wMmEwZTU3OS01Yzg4LTRmYmYtOTMwNy01NzYwNjc3YTZlZmI1",
+      "description": "Learn how to manage changes to your repository source by using pull requests.",
+      "duration": 49,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.75,
+      "rating_count": 292,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Manage repository changes by using pull requests on GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/manage-changes-pull-requests-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm4wNDdiMzc4MS0zMDhhLTQzNmQtYWYzNS1kYmViOGYxYjA1Y2I1",
+      "description": "Learn to use the GitHub integration in Visual Studio Code, including authentication, publishing repos, and viewing your repo timeline.",
+      "duration": 22,
+      "instructor": "",
+      "level": "beginner",
+      "product": "github",
+      "rating_average": 4.82,
+      "rating_count": 73,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Introduction to GitHub in Visual Studio Code",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/introduction-to-github-visual-studio-code/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm4wODZkMjBmYS04NWU2LTRlOTUtYTZmZS1lOTViNTI1YWYzMjY1",
+      "description": "Explore the first two capabilities in the DevOps taxonomy, Continuous Planning and Continuous Integration.",
+      "duration": 22,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.73,
+      "rating_count": 2061,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Analyze DevOps Continuous Planning and Continuous Integration",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/analyze-devops-continuous-planning-intergration/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm4wYTliMDhjMS1jMGZjLTRjNzctYWEzZi0yNzIyYjk3MDBlMjk1",
+      "description": "Run automated load tests by using Apache JMeter, a form of nonfunctional testing, in Azure Pipelines.",
+      "duration": 49,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-devops",
+      "rating_average": 4.71,
+      "rating_count": 788,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Run nonfunctional tests in Azure Pipelines",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/run-non-functional-tests-azure-pipelines/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm4wYWE4NmU1ZC1lZGU5LTRiZDgtOGU2Yy02Y2VmNzliMDI2ODA1",
+      "description": "Create a language translator application for your mixed reality device (Windows Mixed Reality, HoloLens 2, etc.) by using Cognitive Services.",
+      "duration": 70,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.6,
+      "rating_count": 25,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Create a language translator application with Unity and Azure Cognitive Services",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-language-translator-mixed-reality-application-unity-azure-cognitive-services/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm4wZThiNjVkNy1kM2ZhLTRiM2EtYWNhMC02OTY3YTVlNDVmNzU1",
+      "description": "Learn to use Markdown to communicate with brevity, clarity, and expression.",
+      "duration": 62,
+      "instructor": "",
+      "level": "beginner",
+      "product": "github",
+      "rating_average": 4.76,
+      "rating_count": 288,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Communicate effectively on GitHub by using Markdown",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/communicate-using-markdown/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm4xMTI4ODdkMy03MWYwLTQ1ZWMtYjZhZi03ODlhMjA0YjEzZWM1",
+      "description": "Explore two capabilities in the DevOps taxonomy, Continuous Security and Continuous Operations.",
+      "duration": 22,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.71,
+      "rating_count": 1029,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Explore DevOps Continuous Security and Continuous Operations",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/explore-devops-continuous-security-operations/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm4xZDFhZTk3NC1hYjdiLTRmM2MtOWFiOC1jYzA3MWZkMmU5MGI1",
+      "description": "Implement a CI/CD pipeline for Python.",
+      "duration": 46,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-devops",
+      "rating_average": 4.78,
+      "rating_count": 144,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Automate Python deployments with Azure Pipelines",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/deploy-python/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm4xZGQzMzlmYy1iNDk0LTQ1MDMtODQxOS0wNjFjOGNkZGZhMjU1",
+      "description": "Explore how to use GitHub Actions to create an automated Azure Kubernetes Service deployment pipeline.",
+      "duration": 80,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-container-registry",
+      "rating_average": 4.5,
+      "rating_count": 36,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Azure Kubernetes Service deployment pipeline and GitHub Actions",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/aks-deployment-pipeline-github-actions/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm4xZjVjMzNmZC1mMTYyLTQzNzEtOWY4MS1hMzUyMzc1ZmUzODA1",
+      "description": "Learn to move your existing project to GitHub from a legacy version control system.",
+      "duration": 43,
+      "instructor": "",
+      "level": "beginner",
+      "product": "github",
+      "rating_average": 4.76,
+      "rating_count": 330,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Migrate your repository by using GitHub best practices",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/migrate-repository-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm4yNDMxN2ZiMS1jYzYyLTQ4MWYtOWU1Zi1mMTBmMmM1ZWU0NDE1",
+      "description": "Learn how to contribute to an open-source project on GitHub.",
+      "duration": 27,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.88,
+      "rating_count": 59,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Contribute to an open-source project on GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/contribute-open-source/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm4yNWI2MTNhNy0wYWZhLTQ2ZGMtYmU5YS0zYjM0YzMwYTFkNDA1",
+      "description": "Get started with AI on Azure",
+      "duration": 34,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-bot-service",
+      "rating_average": 4.78,
+      "rating_count": 10997,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Get started with AI on Azure",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm4yNjM3N2QxNy05YjExLTQ1NjUtYTU1My04YWE3MTU3NjQ1MDI1",
+      "description": "Investigate container for use with Cognitive Services",
+      "duration": 46,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.71,
+      "rating_count": 17,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Investigate container for use with Cognitive Services",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/investigate-container-for-use-cognitive-services/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm4yNmZhOGVlMy02M2ZjLTRhMGYtODlkYS1jNmM4NTc5MGE4ZDY1",
+      "description": "Learn to interact with the GitHub API from GitHub Actions by using GitHub Script.",
+      "duration": 25,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.76,
+      "rating_count": 243,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Automate GitHub by using GitHub Script",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/automate-github-using-github-script/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm4yN2EzNzUyNC0yZGY3LTRiZTAtYjcwNS0yNTk1MmM5ZDQ2ZDQ1",
+      "description": "Learn to automate DevOps processes by using GitHub Apps that handle repetitive tasks, enforce team policies, and maintain a tidy repository.",
+      "duration": 68,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.79,
+      "rating_count": 229,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Automate DevOps processes by using GitHub Apps",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/automate-devops-github-apps/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm4yOGQ4ZTViMS1jNDhiLTRlYTItYjdlYS1mNDk0NmM1YTI5ZWE1",
+      "description": "Examine Azure's AI services, and choose the right one for your company. Prepare for AZ-900.",
+      "duration": 23,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-machine-learning",
+      "rating_average": 4.78,
+      "rating_count": 7268,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Choose the best AI service for your needs",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-machine-learning-fundamentals/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm4yOTNjOGUwYi1hNmI2LTRkYTctOGUxNS1jYzg2NzJiZTIxY2Y1",
+      "description": "Explore Azure Cognitive Search to discover how to create an index, import data, and query the index for better search results.",
+      "duration": 53,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.61,
+      "rating_count": 217,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Introduction to Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm4yYzhjMDY1MS1iMzdhLTQ0OTEtOTE0ZS03NzBmZTc3NjRhMzI1",
+      "description": "Examine Azure's AI services, and choose the right one for your company. Prepare for AZ-900.",
+      "duration": 23,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-bot-service",
+      "rating_average": 4.78,
+      "rating_count": 7268,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Choose the best AI service for your needs",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-machine-learning-fundamentals/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm4yZDAxZDE2NS1jNWE2LTQyYjctOGE1Mi1iODlmOTI4MmQyMjc1",
+      "description": "Use the Computer Vision API to analyze images for insights, extract text from images, and generate high-quality thumbnails.",
+      "duration": 32,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-cognitive-services",
+      "rating_average": 4.65,
+      "rating_count": 1457,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Process images with the Computer Vision service",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-computer-vision-service-to-classify-images/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm4zMGYxZTQ2My1lNTFhLTQ1NTEtYTJhMC1mMzFhNGYzYThiOGU1",
+      "description": "Learn to settle overlapping commits across branches by using merge conflict resolution.",
+      "duration": 52,
+      "instructor": "",
+      "level": "beginner",
+      "product": "github",
+      "rating_average": 4.83,
+      "rating_count": 273,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Settle competing commits by using merge conflict resolution on GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/resolve-merge-conflicts-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm4zOTY4NjRlNy0xMWY1LTRmMjQtOGIzMS1lMWNhY2JjZGNkMGM1",
+      "description": "Learn to use Markdown to communicate with brevity, clarity, and expression.",
+      "duration": 62,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.76,
+      "rating_count": 288,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Communicate effectively on GitHub by using Markdown",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/communicate-using-markdown/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm4zY2ZiYTliNy1jNjExLTQwMTktODQ4ZC05ODVlNWJjMmZkMTk1",
+      "description": "Use the Computer Vision API to analyze images for insights, extract text from images, and generate high-quality thumbnails.",
+      "duration": 32,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-clis",
+      "rating_average": 4.65,
+      "rating_count": 1457,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Process images with the Computer Vision service",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-computer-vision-service-to-classify-images/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm40MTU3ZDU0ZS04NmY1LTRiNWUtYTk0Yy1jYjBlZTM5MmVlNTg1",
+      "description": "In this module, we'll authenticate to GitHub, create a local Git repository, and push the repository to GitHub by using the Git tooling experience in Visual Studio 2019. We'll add and modify files, stage and commit changes, and then finally push to your remote.",
+      "duration": 38,
+      "instructor": "",
+      "level": "beginner",
+      "product": "github",
+      "rating_average": 5,
+      "rating_count": 8,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Get started with Git and GitHub in Visual Studio",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/visual-studio-github-push/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm40NmU5MjI3ZC02N2M0LTQ2YjctOTE0NS01MWI4NGM0NmFkZjU1",
+      "description": "Learn how to host your personal, organization, and project sites for free with GitHub Pages.",
+      "duration": 72,
+      "instructor": "",
+      "level": "beginner",
+      "product": "github",
+      "rating_average": 4.8,
+      "rating_count": 118,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Create and host web sites by using GitHub Pages",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-host-web-sites-github-pages/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm40N2RhZTY4Mi0yNjJiLTQzNjctODVkZS0yY2Y5OWRmMDhjNmM1",
+      "description": "Learn how to create workflows that enable you to use Continuous Integration (CI) for your projects.",
+      "duration": 55,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.71,
+      "rating_count": 287,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Build continuous integration (CI) workflows by using GitHub Actions",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/github-actions-ci/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm40ODZmMGI5OS1hODc5LTQ4ODMtYTlhZS1jZmE0OWViZWY0NTg1",
+      "description": "Create a language translator application for your mixed reality device (Windows Mixed Reality, HoloLens 2, etc.) by using Cognitive Services.",
+      "duration": 70,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-speech-translation",
+      "rating_average": 4.6,
+      "rating_count": 25,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Create a language translator application with Unity and Azure Cognitive Services",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-language-translator-mixed-reality-application-unity-azure-cognitive-services/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm40OGFmMWNmZi00ZTQ4LTQwYjUtYmM1MS01YmVlODg0NWYyMDI1",
+      "description": "Learn how to contribute to an open-source project on GitHub.",
+      "duration": 27,
+      "instructor": "",
+      "level": "beginner",
+      "product": "vs",
+      "rating_average": 4.88,
+      "rating_count": 59,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Contribute to an open-source project on GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/contribute-open-source/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm40OTEzZmM4Ny0xNTU5LTQyY2UtOWUzYy04ZDAwYmI0NTQzMTY1",
+      "description": "Learn how to manage changes to your repository source by using pull requests.",
+      "duration": 49,
+      "instructor": "",
+      "level": "beginner",
+      "product": "github",
+      "rating_average": 4.75,
+      "rating_count": 292,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Manage repository changes by using pull requests on GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/manage-changes-pull-requests-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm40YTQzM2Q4OS00YjRkLTQ3ZGMtOGVlNS05NjE5ODVlZGUxMmE1",
+      "description": "Implement a CI/CD pipeline for Java containers.",
+      "duration": 56,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-devops",
+      "rating_average": 4.27,
+      "rating_count": 22,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Automate Java container deployments with Azure Pipelines",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/deploy-java-containers/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm40ZGI4MjQzOC1lYmM2LTQzZTAtYjFhNS0zZjIwODk1MWY2YmU1",
+      "description": "Learn to manage a successful InnerSource program on GitHub through effective discoverability, guidance, and maintenance.",
+      "duration": 50,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.75,
+      "rating_count": 247,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Manage an InnerSource program by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/manage-innersource-program-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm41NDRjMjFiYi0yOTNkLTQ1ZTktOTZkYS1jNmY2MGRiMjY0Zjc1",
+      "description": "Create a basic GitHub Action and use that action in a workflow.",
+      "duration": 49,
+      "instructor": "",
+      "level": "beginner",
+      "product": "github",
+      "rating_average": 4.71,
+      "rating_count": 254,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Automate development tasks by using GitHub Actions",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/github-actions-automate-tasks/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm41N2MyMWZjMy03NGFlLTQzMTAtODhjMC00MTAzNWUwMTNmZjM1",
+      "description": "Learn to upload your existing project to GitHub.",
+      "duration": 43,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.76,
+      "rating_count": 327,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Upload your project by using GitHub best practices",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/upload-project-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm41YjM0NzljYy0wMDU0LTQ1OWItYjAxMC0wY2QzOTc4ZDgwYWM1",
+      "description": "Create a language translator application for your mixed reality device (Windows Mixed Reality, HoloLens 2, etc.) by using Cognitive Services.",
+      "duration": 70,
+      "instructor": "",
+      "level": "beginner",
+      "product": "hololens",
+      "rating_average": 4.6,
+      "rating_count": 25,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Create a language translator application with Unity and Azure Cognitive Services",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-language-translator-mixed-reality-application-unity-azure-cognitive-services/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm41YjNlYTc4MS0wZDgyLTQ5NDUtODE1Yi1jOGFmNzAxMjc1Y2Y1",
+      "description": "DevOps is the union of people, process, and products to enable continuous delivery of value to our end users. Discover the first two foundation pillars of DevOps: Culture and Lean Product.",
+      "duration": 25,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.69,
+      "rating_count": 3395,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Introduce the foundation pillars of DevOps: Culture and Lean Product",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/introduce-foundation-pillars-devops/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm41ZjM0Y2FmOS04Y2M4LTRkZDgtOGIwNy0zODQ2MGZlZmY0Njg1",
+      "description": "Azure Cognitive Services enable developers to easily add cognitive features into their applications. Learn how to configure and manage these services for your AI application needs.",
+      "duration": 44,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-cognitive-services",
+      "rating_average": 4.56,
+      "rating_count": 25,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Create and manage Cognitive Services",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-manage-cognitive-services/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm42MDc2YmYwNi05YmM3LTQxOWItYTVmMy1lNjk3ZDlkOTZjMDE1",
+      "description": "Set up a continuous delivery (CD) pipeline that automates the process of deploying your application.",
+      "duration": 64,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-devops",
+      "rating_average": 4.7,
+      "rating_count": 1201,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Create a release pipeline in Azure Pipelines",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-release-pipeline/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm42MTUzM2MwZS0yZmM4LTRlYjgtODdmOC0yMDIwYjg2MzdiODU1",
+      "description": "Explore how to use GitHub Actions to create an automated Azure Kubernetes Service deployment pipeline.",
+      "duration": 80,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.5,
+      "rating_count": 36,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Azure Kubernetes Service deployment pipeline and GitHub Actions",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/aks-deployment-pipeline-github-actions/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm42NGZlMDI1My03MWZkLTRjMjctYjI4OC02ZThjZjgxOWQwMmM1",
+      "description": "Get started with AI on Azure",
+      "duration": 34,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-cognitive-services",
+      "rating_average": 4.78,
+      "rating_count": 10997,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Get started with AI on Azure",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm42NTI0YjhmMi1kYjM0LTRlMzktODQwMC02MzZkMWQ1Y2Q5ZmY1",
+      "description": "In this module, we'll authenticate to GitHub, create a local Git repository, and push the repository to GitHub by using the Git tooling experience in Visual Studio 2019. We'll add and modify files, stage and commit changes, and then finally push to your remote.",
+      "duration": 38,
+      "instructor": "",
+      "level": "beginner",
+      "product": "vs",
+      "rating_average": 5,
+      "rating_count": 8,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Get started with Git and GitHub in Visual Studio",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/visual-studio-github-push/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm42N2Q1ZDc3NC1iYjUwLTRmOWYtODUwNy1iMWQ3NTAwNzcyZTY1",
+      "description": "Explore Azure Cognitive Search to discover how to create an index, import data, and query the index for better search results.",
+      "duration": 53,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.61,
+      "rating_count": 217,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Introduction to Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm42YTc1NWUzNy03MjBmLTQ5NTUtYTEwNi1hZmUwNTJjNDNhMjE1",
+      "description": "Examine Azure's AI services, and choose the right one for your company. Prepare for AZ-900.",
+      "duration": 23,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-cognitive-services",
+      "rating_average": 4.78,
+      "rating_count": 7268,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Choose the best AI service for your needs",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-machine-learning-fundamentals/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm42YmUxYWYyYy02NzQzLTRhMDEtOWY0ZS1jZDQ2NDM3ZTE5Mjc1",
+      "description": "Create a language translator application for your mixed reality device (Windows Mixed Reality, HoloLens 2, etc.) by using Cognitive Services.",
+      "duration": 70,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-cognitive-services",
+      "rating_average": 4.6,
+      "rating_count": 25,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Create a language translator application with Unity and Azure Cognitive Services",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-language-translator-mixed-reality-application-unity-azure-cognitive-services/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm42ZTFjYzY2ZC04OGNjLTQ3ODctYWE2Mi1lYjYwMTAxODgzYWE1",
+      "description": "Learn to move your existing project to GitHub from a legacy version control system.",
+      "duration": 43,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.76,
+      "rating_count": 330,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Migrate your repository by using GitHub best practices",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/migrate-repository-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm42ZjM3OWQyOC1hNTM2LTQ1OTktOTZhMi02MmI2MTliZmMyYmU1",
+      "description": "Implement a CI/CD pipeline for Docker containers.",
+      "duration": 46,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.72,
+      "rating_count": 345,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Automate Docker container deployments with Azure Pipelines",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/deploy-docker/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm43MzZjZjAzOC0xN2Y3LTQyNzAtYTk3OS1hYzk0ZTM0ODM5MTc1",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": 38,
+      "instructor": "",
+      "level": "beginner",
+      "product": "github",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm43NWUwZmM2Ni1jNmUxLTRiOWUtOWI2Yi0wMjU0NWMxNjM4OGY1",
+      "description": "Analyze images with the Computer Vision service",
+      "duration": 28,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-cognitive-services",
+      "rating_average": 4.73,
+      "rating_count": 1283,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Analyze images with the Computer Vision service",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/analyze-images-computer-vision/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm43NmRjYjRlNy02Yzk0LTRlZDUtOTNlOC04ZWMwNWNlOWI4NmI1",
+      "description": "Implement a CI/CD pipeline for Azure Functions.",
+      "duration": 46,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.69,
+      "rating_count": 378,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Automate Azure Functions deployments with Azure Pipelines",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/deploy-azure-functions/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 2.4784205,
+      "Key": "bXMtbGVhcm43ODYzZmVlNi1hNTA4LTQ3YTgtOGQ4OC03MDM3NGEzODM4ZjQ1",
+      "description": "Learn to automate DevOps processes by using GitHub Apps that handle repetitive tasks, enforce team policies, and maintain a tidy repository.",
+      "duration": 68,
+      "instructor": "",
+      "level": "beginner",
+      "product": "github",
+      "rating_average": 4.79,
+      "rating_count": 229,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Automate DevOps processes by using GitHub Apps",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/automate-devops-github-apps/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    }
+  ],
+  "@odata.nextLink": "https://anhth-ai-enriched-corporate-search-service.search.windows.net/indexes('azuretable-index')/docs?api-version=2021-04-30-Preview&search=%2A%20%24filter%3D%28role%20eq%20%22developer%22%20and%20level%20eq%20%22beginner%22%29&$skip=50"
+}
+
+2.
+Query: search=* $filter=source eq "Company Moodle"&$select=instructor, level, role, source, url
+Result:
+{
+  "@odata.context": "https://anhth-ai-enriched-corporate-search-service.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 7.5607567,
+      "instructor": "Gerald Dominguez",
+      "level": "beginner",
+      "role": "all",
+      "source": "Company Moodle",
+      "url": "https://www.example.com/course10"
+    },
+    {
+      "@search.score": 7.5607567,
+      "instructor": "Eileen Diaz",
+      "level": "advanced",
+      "role": "developer",
+      "source": "Company Moodle",
+      "url": "https://www.example.com/course7"
+    },
+    {
+      "@search.score": 7.5607567,
+      "instructor": "Mike Montoya",
+      "level": "beginner",
+      "role": "all",
+      "source": "Company Moodle",
+      "url": "https://www.example.com/course2"
+    },
+    {
+      "@search.score": 7.5607567,
+      "instructor": "Robert Gillis",
+      "level": "intermediate",
+      "role": "developer",
+      "source": "Company Moodle",
+      "url": "https://www.example.com/course6"
+    },
+    {
+      "@search.score": 7.5607567,
+      "instructor": "Claudia Blackman",
+      "level": "intermediate",
+      "role": "admin",
+      "source": "Company Moodle",
+      "url": "https://www.example.com/course5"
+    },
+    {
+      "@search.score": 7.5607567,
+      "instructor": "Mike Montoya",
+      "level": "beginner",
+      "role": "all",
+      "source": "Company Moodle",
+      "url": "https://www.example.com/course1"
+    },
+    {
+      "@search.score": 7.5607567,
+      "instructor": "Eileen Diaz",
+      "level": "intermediate",
+      "role": "architect",
+      "source": "Company Moodle",
+      "url": "https://www.example.com/course12"
+    },
+    {
+      "@search.score": 7.5607567,
+      "instructor": "Eileen Diaz",
+      "level": "advanced",
+      "role": "admin",
+      "source": "Company Moodle",
+      "url": "https://www.example.com/course8"
+    },
+    {
+      "@search.score": 7.5607567,
+      "instructor": "Claudia Blackman",
+      "level": "beginner",
+      "role": "developer",
+      "source": "Company Moodle",
+      "url": "https://www.example.com/course3"
+    },
+    {
+      "@search.score": 7.5607567,
+      "instructor": "Eileen Diaz",
+      "level": "advanced",
+      "role": "architect",
+      "source": "Company Moodle",
+      "url": "https://www.example.com/course14"
+    },
+    {
+      "@search.score": 7.5607567,
+      "instructor": "Claudia Blackman",
+      "level": "intermediate",
+      "role": "developer",
+      "source": "Company Moodle",
+      "url": "https://www.example.com/course4"
+    },
+    {
+      "@search.score": 7.5607567,
+      "instructor": "Gerald Dominguez",
+      "level": "beginner",
+      "role": "all",
+      "source": "Company Moodle",
+      "url": "https://www.example.com/course11"
+    },
+    {
+      "@search.score": 7.5607567,
+      "instructor": "Mike Montoya",
+      "level": "beginner",
+      "role": "all",
+      "source": "Company Moodle",
+      "url": "https://www.example.com/course13"
+    },
+    {
+      "@search.score": 7.5607567,
+      "instructor": "Eileen Diaz",
+      "level": "intermediate",
+      "role": "developer",
+      "source": "Company Moodle",
+      "url": "https://www.example.com/course9"
+    }
+  ]
+}
+
+3.
+Query: search=*&facet=role
+{
+  "@odata.context": "https://anhth-ai-enriched-corporate-search-service.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "@search.facets": {
+    "role": [
+      {
+        "count": 174,
+        "value": "developer"
+      },
+      {
+        "count": 130,
+        "value": "solution-architect"
+      },
+      {
+        "count": 108,
+        "value": "business-user"
+      },
+      {
+        "count": 106,
+        "value": "devops-engineer"
+      },
+      {
+        "count": 105,
+        "value": "administrator"
+      },
+      {
+        "count": 75,
+        "value": "functional-consultant"
+      },
+      {
+        "count": 56,
+        "value": "data-scientist"
+      },
+      {
+        "count": 56,
+        "value": "maker"
+      },
+      {
+        "count": 56,
+        "value": "student"
+      },
+      {
+        "count": 47,
+        "value": "ai-engineer"
+      }
+    ]
+  },
+  "value": [
+    {
+      "@search.score": 1,
+      "Key": "Y29tcGFueS1tb29kbGUxN2IxZWVkYy0wZTk2LTRlNWItODE5OS04M2E0ODQzODhlZmU1",
+      "description": "Learn our internal best practices for using the O365 suite including email signatures, file storage and other issues",
+      "duration": 2,
+      "instructor": "Gerald Dominguez",
+      "level": "beginner",
+      "product": "O365",
+      "rating_average": 4.6,
+      "rating_count": 510,
+      "role": "all",
+      "source": "Company Moodle",
+      "title": "O365",
+      "url": "https://www.example.com/course10",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "Y29tcGFueS1tb29kbGUyNzhkMjk5ZS1lZjBlLTQ3ZmItOGU5OC01YTMxYTA3MzUxOWM1",
+      "description": "For developers, learn our best practices for securely connecting to databases",
+      "duration": 2,
+      "instructor": "Eileen Diaz",
+      "level": "advanced",
+      "product": "SQL",
+      "rating_average": 4.8,
+      "rating_count": 115,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "Security for database code",
+      "url": "https://www.example.com/course7",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "Y29tcGFueS1tb29kbGUzMGUzYzZlNS05NDE1LTRkODUtODIyOS1jMjEzMzIwM2M1MzU1",
+      "description": "Learn the policies related to the distribution and use of computers, phones, software, and other technology",
+      "duration": 1,
+      "instructor": "Mike Montoya",
+      "level": "beginner",
+      "product": "NA",
+      "rating_average": 4.9,
+      "rating_count": 550,
+      "role": "all",
+      "source": "Company Moodle",
+      "title": "Onboarding - Technology Policies ",
+      "url": "https://www.example.com/course2",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "Y29tcGFueS1tb29kbGUzY2JiMzgwMC0yNTU0LTQxMjEtYmIzYS1mMzY1ZGViMGMzYjY1",
+      "description": "Learn our best practices for various tools such as Leaflet",
+      "duration": 2,
+      "instructor": "Robert Gillis",
+      "level": "intermediate",
+      "product": "leaflet",
+      "rating_average": 3.9,
+      "rating_count": 28,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "Maps",
+      "url": "https://www.example.com/course6",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "Y29tcGFueS1tb29kbGU1NzhhMzMxOS1hYTdjLTRkMmYtYjZhNC0zOWU5NjM4YjBhODU1",
+      "description": "For administrators, this course will teach you how our CI/CD pipelines work from an operations perspective",
+      "duration": 5,
+      "instructor": "Claudia Blackman",
+      "level": "intermediate",
+      "product": "jenkins",
+      "rating_average": 4.9,
+      "rating_count": 56,
+      "role": "admin",
+      "source": "Company Moodle",
+      "title": "DevOps for Ops",
+      "url": "https://www.example.com/course5",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "Y29tcGFueS1tb29kbGU1YjI5MzI4My04MWU2LTRmODktYTBhYi03MDUzOTg4ZDZmNmE1",
+      "description": "Learn how to track billable and non-billable hours by assigning time to projects and other relevant time codes",
+      "duration": 1,
+      "instructor": "Mike Montoya",
+      "level": "beginner",
+      "product": "NA",
+      "rating_average": 4.8,
+      "rating_count": 540,
+      "role": "all",
+      "source": "Company Moodle",
+      "title": "Onboarding - Time Tracking ",
+      "url": "https://www.example.com/course1",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "Y29tcGFueS1tb29kbGU2YjVkM2Y1NS1lYjAyLTQ5OWQtOTc3NS0yZTBlMjU2NTllMDc1",
+      "description": "Learn our company's Principles for the Responsible Use of AI",
+      "duration": 1,
+      "instructor": "Eileen Diaz",
+      "level": "intermediate",
+      "product": "NA",
+      "rating_average": 4.3,
+      "rating_count": 24,
+      "role": "architect",
+      "source": "Company Moodle",
+      "title": "Ethics in AI",
+      "url": "https://www.example.com/course12",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "Y29tcGFueS1tb29kbGU4NWVlNzI1Yi00YWUwLTQ3MTktODc4NS1kZGY5OWUxOWZhZjE1",
+      "description": "For administrators, learn our best practices for securing all databases",
+      "duration": 3,
+      "instructor": "Eileen Diaz",
+      "level": "advanced",
+      "product": "SQL",
+      "rating_average": 4.3,
+      "rating_count": 45,
+      "role": "admin",
+      "source": "Company Moodle",
+      "title": "Security for database admins",
+      "url": "https://www.example.com/course8",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "Y29tcGFueS1tb29kbGU5NzAwZTFkYy1iMjkzLTQzMDYtOWUxYi0wZDM0NTg2M2RiNTQ1",
+      "description": "This course will teach you the specific ways our company uses Git. You will learn details for comments, branching, pull requests, and other procsses",
+      "duration": 3,
+      "instructor": "Claudia Blackman",
+      "level": "beginner",
+      "product": "git",
+      "rating_average": 4.5,
+      "rating_count": 125,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "Git Workflow ",
+      "url": "https://www.example.com/course3",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "Y29tcGFueS1tb29kbGU5ZGY4NDRmZC1lZWZlLTQ4ODAtODM0MS05MzY3MzIxNzRiYjU1",
+      "description": "Learn our policies for utilizing encryption including key management for projects",
+      "duration": 3,
+      "instructor": "Eileen Diaz",
+      "level": "advanced",
+      "product": "NA",
+      "rating_average": 4.2,
+      "rating_count": 95,
+      "role": "architect",
+      "source": "Company Moodle",
+      "title": "Encryption and security",
+      "url": "https://www.example.com/course14",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "Y29tcGFueS1tb29kbGViNTFlZGUxNC0wMjVmLTQ5YWQtOWU5ZS00NGFkMjg0ZWVkZGE1",
+      "description": "For developers, this course will teach you how to hook your dev work into our existing CI/CD pipelines.",
+      "duration": 3,
+      "instructor": "Claudia Blackman",
+      "level": "intermediate",
+      "product": "jenkins",
+      "rating_average": 3.8,
+      "rating_count": 101,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "DevOps for Dev",
+      "url": "https://www.example.com/course4",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "Y29tcGFueS1tb29kbGVjMDE0Y2YzNi0yYTgzLTRkZWQtYmZlNS1kNjJmNDA1YmE5NzA1",
+      "description": "This course will teach you best practices for communicating with your team while working remotely",
+      "duration": 1,
+      "instructor": "Gerald Dominguez",
+      "level": "beginner",
+      "product": "NA",
+      "rating_average": 4.7,
+      "rating_count": 325,
+      "role": "all",
+      "source": "Company Moodle",
+      "title": "Remote work",
+      "url": "https://www.example.com/course11",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "Y29tcGFueS1tb29kbGVjNmI3ZmJkMC03MzkwLTQzNzAtYWI3Ny00NTAyNzU5NmI1MjA1",
+      "description": "Understand ways you can be more healthy in the work environment including what ergonomic equipment is available to you",
+      "duration": 1,
+      "instructor": "Mike Montoya",
+      "level": "beginner",
+      "product": "NA",
+      "rating_average": 4.6,
+      "rating_count": 525,
+      "role": "all",
+      "source": "Company Moodle",
+      "title": "Workplace Health",
+      "url": "https://www.example.com/course13",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "Y29tcGFueS1tb29kbGVkM2YwYzk1NS1hYzZlLTRjZWQtYjkxYi1mZmNlZjNlOGNlZGU1",
+      "description": "For developers, learn our best practices for writing secure code for web, server, and desktop development",
+      "duration": 3,
+      "instructor": "Eileen Diaz",
+      "level": "intermediate",
+      "product": "NA",
+      "rating_average": 4.4,
+      "rating_count": 132,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "Code security",
+      "url": "https://www.example.com/course9",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "bXMtbGVhcm4wMDBhMGQ1Ny1hMGZlLTQzODYtODI5Yy05OTA3NGQxYjNiOWI1",
+      "description": "Find out about automated testing that proves your code to be maintainable, understandable, and functioning without repetitive manual testing.",
+      "duration": 82,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-devops",
+      "rating_average": 4.73,
+      "rating_count": 3301,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Run quality tests in your build pipeline by using Azure Pipelines",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/run-quality-tests-build-pipeline/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "bXMtbGVhcm4wMDJmNDQzNi03MzYwLTRkYWEtYTIxZC1mOWRjZDM1MTg1ODk1",
+      "description": "Enable business users with key AI use cases",
+      "duration": 34,
+      "instructor": "",
+      "level": "beginner",
+      "product": "power-platform",
+      "rating_average": 4.75,
+      "rating_count": 758,
+      "role": "functional-consultant",
+      "source": "MS Learn",
+      "title": "Enable business users with key AI use cases",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/enable-business-users-with-key-ai-uses-cases/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "bXMtbGVhcm4wMGJhYWE3NS04OWZlLTRmODYtODA1Zi1mMDgzMzZlNmFmNDg1",
+      "description": "Explore the strategic components, use cases, and special factors of an enterprise AI strategy that creates real business value, with INSEAD and Microsoft.",
+      "duration": 70,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "m365",
+      "rating_average": 4.71,
+      "rating_count": 2779,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Define an AI strategy to create business value",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-strategy-to-create-business-value/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "bXMtbGVhcm4wMTVjMjk0Ny04ZTRlLTQ0ZjUtYjM0Mi0wNTY0ZjBlZTJmYmY1",
+      "description": "Learn to manage LUIS apps through versioning, key management, handling data, and improving predictions.",
+      "duration": 24,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure",
+      "rating_average": 4.77,
+      "rating_count": 106,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Manage your Language Understanding Intelligent Service (LUIS) Apps",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/manage-language-understanding-intelligent-service-apps/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "bXMtbGVhcm4wMTczMWMxMC0yMGJiLTQxZTctYmEyMS04NTI4NjY5ZGNkYzM1",
+      "description": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+      "duration": 18,
+      "instructor": "",
+      "level": "advanced",
+      "product": "azure",
+      "rating_average": 4.75,
+      "rating_count": 137,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/use-containers-language-understanding-intelligent-service-apps/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "bXMtbGVhcm4wMTk3YzhjNi1kZmM0LTQ1MGItOWZhNy0zZjYxMDk3N2NjNzk1",
+      "description": "Learn about AI Builder Text recognition and how to use it with other Power Platform products.",
+      "duration": 55,
+      "instructor": "",
+      "level": "beginner",
+      "product": "ai-builder",
+      "rating_average": 4.61,
+      "rating_count": 197,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Text recognition",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-text-recognition/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "bXMtbGVhcm4wMWIxZTQyZC04MDI1LTQ4NjUtODQ4OC0wNmU5NDZmZDViZjM1",
+      "description": "In this module, we'll introduce you to Language Understanding Intelligent Service (LUIS) and show how to build and publish a LUIS model",
+      "duration": 54,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure-bot-service",
+      "rating_average": 4.67,
+      "rating_count": 1855,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Add conversational intelligence to your apps by using Language Understanding Intelligent Service (LUIS)",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-and-publish-a-luis-model/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "bXMtbGVhcm4wMWJmNzA1Yi01Nzk4LTRhZGItYmE1Yy1lNWMwMThlNmU5YzI1",
+      "description": "Learn to identify valuable information in conversations with LUIS for interpreting user goals (intents) and distill valuable information from sentences (entities).",
+      "duration": 27,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure-cognitive-services",
+      "rating_average": 4.77,
+      "rating_count": 131,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Add basic conversational intelligence to your apps by using Language Understanding Intelligent Service (LUIS)",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/add-basic-conversational-intelligence/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "bXMtbGVhcm4wMWMzZTgwMi00NjdhLTRmYTYtODI4ZC01ZTdlNWE2YTVkMjE1",
+      "description": "Explore two capabilities in the DevOps taxonomy, Continuous Collaboration and Continuous Improvement.",
+      "duration": 17,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.7,
+      "rating_count": 1425,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Characterize DevOps Continuous Collaboration and Continuous Improvement",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/characterize-devops-continous-collaboration-improvement/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "bXMtbGVhcm4wMjFkNGFjNy00Yjk5LTQ1ZGUtOWQ2Zi05NzI1ODFkNzNjNDY1",
+      "description": "Learn to identify valuable information in conversations with LUIS for interpreting user goals (intents) and distill valuable information from sentences (entities).",
+      "duration": 27,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure-language-understanding",
+      "rating_average": 4.77,
+      "rating_count": 131,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Add basic conversational intelligence to your apps by using Language Understanding Intelligent Service (LUIS)",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/add-basic-conversational-intelligence/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "bXMtbGVhcm4wMjVkOTI4ZC0wMjZmLTRiYzktYmZmNi1mN2YzMjI5NjY3YzE1",
+      "description": "Implement CI/CD pipeline for Node.js applications. Automate deployment of Vue, React, Angular or webpack apps with Azure Pipelines.",
+      "duration": 44,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.9,
+      "rating_count": 41,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Automate Node.js deployments with Azure Pipelines",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/deploy-nodejs/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "bXMtbGVhcm4wMjkxMTljMy1jZDNjLTRhYzMtYmRhNi0wNmZlMzY0YjlhNTQ1",
+      "description": "Choose and implement a deployment pattern that helps you smoothly roll out new application features to your users.",
+      "duration": 60,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure-devops",
+      "rating_average": 4.72,
+      "rating_count": 604,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Manage release cadence in Azure Pipelines by using deployment patterns",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/manage-release-cadence/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "bXMtbGVhcm4wMmEwZTU3OS01Yzg4LTRmYmYtOTMwNy01NzYwNjc3YTZlZmI1",
+      "description": "Learn how to manage changes to your repository source by using pull requests.",
+      "duration": 49,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.75,
+      "rating_count": 292,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Manage repository changes by using pull requests on GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/manage-changes-pull-requests-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "bXMtbGVhcm4wMzNlZDQzMC01NDQ1LTRmODQtOWMzMS0yYTIwMTI2YjY4MmM1",
+      "description": "Learn how to contribute to an open-source project on GitHub.",
+      "duration": 27,
+      "instructor": "",
+      "level": "beginner",
+      "product": "vs",
+      "rating_average": 4.88,
+      "rating_count": 59,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Contribute to an open-source project on GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/contribute-open-source/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "bXMtbGVhcm4wM2I3MmViMC03OGUzLTQ0ZWItODNiOC0zZDRmMzVkNTQxYTE1",
+      "description": "Implement robotic process automation with Microsoft Power Automate, Teams, desktop flow, and AI Builder",
+      "duration": 34,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "power-platform",
+      "rating_average": 4.73,
+      "rating_count": 721,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Implement robotic process automation with Microsoft Power Automate, Teams, desktop flow, and AI Builder",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/implement-power-automate-ui-flows-ai-builder/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "bXMtbGVhcm4wNDA5MjY1OS1kZWFiLTQzYWQtYWQwZS1lZjI5OTJmMGFmMjk1",
+      "description": "In this module, we'll authenticate to GitHub, create a local Git repository, and push the repository to GitHub by using the Git tooling experience in Visual Studio 2019. We'll add and modify files, stage and commit changes, and then finally push to your remote.",
+      "duration": 38,
+      "instructor": "",
+      "level": "beginner",
+      "product": "vs",
+      "rating_average": 5,
+      "rating_count": 8,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Get started with Git and GitHub in Visual Studio",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/visual-studio-github-push/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "bXMtbGVhcm4wNDc5ZDg4Ny0zMmNlLTQ3N2ItYjE4NC05MjMwZTA5NjU2MmE1",
+      "description": "Get started with AI on Azure",
+      "duration": 34,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-machine-learning",
+      "rating_average": 4.78,
+      "rating_count": 10997,
+      "role": "data-scientist",
+      "source": "MS Learn",
+      "title": "Get started with AI on Azure",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "bXMtbGVhcm4wNDdiMzc4MS0zMDhhLTQzNmQtYWYzNS1kYmViOGYxYjA1Y2I1",
+      "description": "Learn to use the GitHub integration in Visual Studio Code, including authentication, publishing repos, and viewing your repo timeline.",
+      "duration": 22,
+      "instructor": "",
+      "level": "beginner",
+      "product": "github",
+      "rating_average": 4.82,
+      "rating_count": 73,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Introduction to GitHub in Visual Studio Code",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/introduction-to-github-visual-studio-code/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "bXMtbGVhcm4wNDg5MzRhZi0wMmU0LTQzYjgtYmQyMi00OGI2YTExNGVmZGI1",
+      "description": "Use Python, Flask, and Azure Cognitive Services to build a web app that incorporates AI",
+      "duration": 75,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure",
+      "rating_average": 4.65,
+      "rating_count": 248,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Build an AI web app by using Python and Flask",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/python-flask-build-ai-web-app/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "bXMtbGVhcm4wNGU0MTEwMC04MDNhLTQ1MzQtYjVmYS1iNGFjMzcwZDJkMDY1",
+      "description": "Implement a CI/CD pipeline for multiple containers to Kubernetes.",
+      "duration": 56,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.7,
+      "rating_count": 401,
+      "role": "devops-engineer",
+      "source": "MS Learn",
+      "title": "Automate multi-container Kubernetes deployments with Azure Pipelines",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/deploy-kubernetes/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "bXMtbGVhcm4wNGZiNjlmMC04MjAxLTRkOWUtYThhYy0yZmEzMGRlN2JmZjU1",
+      "description": "DevOps is the union of people, process, and products to enable continuous delivery of value to our end users. Discover the first two foundation pillars of DevOps: Culture and Lean Product.",
+      "duration": 25,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.69,
+      "rating_count": 3395,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Introduce the foundation pillars of DevOps: Culture and Lean Product",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/introduce-foundation-pillars-devops/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "bXMtbGVhcm4wNTU4OWYyNi02ZTgwLTQ4NDItOWY0MS1hZmIzOGFhYTVhZGQ1",
+      "description": "Run Selenium UI tests, a form of functional testing, in Azure Pipelines.",
+      "duration": 63,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.66,
+      "rating_count": 800,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Run functional tests in Azure Pipelines",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/run-functional-tests-azure-pipelines/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "bXMtbGVhcm4wNTdkZDhjYi05NTAyLTQ3MTAtYWNmMS0zYzVkNzZiM2FkZGY1",
+      "description": "Implement a CI/CD pipeline for Python.",
+      "duration": 46,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-devops",
+      "rating_average": 4.78,
+      "rating_count": 144,
+      "role": "devops-engineer",
+      "source": "MS Learn",
+      "title": "Automate Python deployments with Azure Pipelines",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/deploy-python/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "bXMtbGVhcm4wNThmNmY1OC0yNmNjLTQ4MjYtYjgwYy04MmVlYjE0NzFkNDY1",
+      "description": "Learn to manage a successful InnerSource program on GitHub through effective discoverability, guidance, and maintenance.",
+      "duration": 50,
+      "instructor": "",
+      "level": "beginner",
+      "product": "github",
+      "rating_average": 4.75,
+      "rating_count": 247,
+      "role": "devops-engineer",
+      "source": "MS Learn",
+      "title": "Manage an InnerSource program by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/manage-innersource-program-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "bXMtbGVhcm4wNWNjMTIyMS00MWM1LTRkYTAtOTY5Zi0wMGQ0Mzg2ZGM5YmY1",
+      "description": "Understand the key elements that make a culture AI-ready and a framework to drive the change needed in your organization for a successful AI strategy.",
+      "duration": 49,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "dynamics-365",
+      "rating_average": 4.74,
+      "rating_count": 1136,
+      "role": "functional-consultant",
+      "source": "MS Learn",
+      "title": "Understand the importance of building an AI-ready culture",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/build-an-ai-ready-culture/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "bXMtbGVhcm4wNjBjYzY0Ny03ODNjLTQ3NWQtOGE4My01ZGNhZmYxMmVlODQ1",
+      "description": "Analyze images with the Computer Vision service",
+      "duration": 28,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-cognitive-services",
+      "rating_average": 4.73,
+      "rating_count": 1283,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Analyze images with the Computer Vision service",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/analyze-images-computer-vision/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "bXMtbGVhcm4wNjY5NTU1MS1hM2IzLTQ5N2ItOWY0ZS03NTkwMTU4ZWIzZTA1",
+      "description": "Explore two capabilities in the DevOps taxonomy, Continuous Collaboration and Continuous Improvement.",
+      "duration": 17,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.7,
+      "rating_count": 1425,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Characterize DevOps Continuous Collaboration and Continuous Improvement",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/characterize-devops-continous-collaboration-improvement/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "bXMtbGVhcm4wNzI5MTU5NC00Y2M5LTQ5NzMtYjM2YS0xOGY4Mjc2N2RkYWM1",
+      "description": "Do you want to know how to configure and set up an automated build process? In this module, you'll learn how to configure CI/CD with Business Central applications, how to create pipelines using YAML files, and set up a release process.",
+      "duration": 43,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "dynamics-365",
+      "rating_average": 4.62,
+      "rating_count": 13,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Use Azure Pipelines for CI/CD with Business Central",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/use-azure-pipelines/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "bXMtbGVhcm4wNzNkYTMyOC1iMGFjLTRhMzQtYmVkNi02MmI2YzFjYmM4YWQ1",
+      "description": "Create a basic GitHub Action and use that action in a workflow.",
+      "duration": 49,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.71,
+      "rating_count": 254,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Automate development tasks by using GitHub Actions",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/github-actions-automate-tasks/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "bXMtbGVhcm4wN2RlMGQyZC1mZjdlLTQ0ODYtOWE1My0yYTgyYjBmZDczN2U1",
+      "description": "Detect and track polar bears through photos using AI, and then use Power BI to show where cameras spot polar bears.",
+      "duration": 82,
+      "instructor": "",
+      "level": "beginner",
+      "product": "power-bi",
+      "rating_average": 4.68,
+      "rating_count": 318,
+      "role": "data-scientist",
+      "source": "MS Learn",
+      "title": "Track wild polar bears with AI",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/build-ml-model-with-azure-stream-analytics/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "bXMtbGVhcm4wODFlNGIwMy1lYWMxLTQ4ZDgtYWNhMC1kOWE5OGU1NmI3ODc1",
+      "description": "Learn how to contribute to an open-source project on GitHub.",
+      "duration": 27,
+      "instructor": "",
+      "level": "beginner",
+      "product": "vs",
+      "rating_average": 4.88,
+      "rating_count": 59,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Contribute to an open-source project on GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/contribute-open-source/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "bXMtbGVhcm4wODU5NjAxYy03M2JiLTQwOTUtYWM1MC05NDg5MjIyZjA3OTA1",
+      "description": "Publish automatically and securely your code libraries or Docker images with GitHub Packages.",
+      "duration": 38,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "github",
+      "rating_average": 4.71,
+      "rating_count": 51,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Leverage GitHub Actions to publish to GitHub Packages",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/github-actions-packages/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "bXMtbGVhcm4wODYyZjdlZi1jZDAyLTQ4YmItOTI1ZS01NmI2NmEwMWQ2MWQ1",
+      "description": "Use a release approval in Azure Pipelines to help coordinate database schema changes between developers and database administrators.",
+      "duration": 74,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure-devops",
+      "rating_average": 4.65,
+      "rating_count": 714,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Manage database changes in Azure Pipelines",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/manage-database-changes-in-azure-pipelines/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "bXMtbGVhcm4wODZkMjBmYS04NWU2LTRlOTUtYTZmZS1lOTViNTI1YWYzMjY1",
+      "description": "Explore the first two capabilities in the DevOps taxonomy, Continuous Planning and Continuous Integration.",
+      "duration": 22,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.73,
+      "rating_count": 2061,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Analyze DevOps Continuous Planning and Continuous Integration",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/analyze-devops-continuous-planning-intergration/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "bXMtbGVhcm4wOTBlOGY2Ni01NmVhLTQ2YzYtOTEzYi1jNzViMTQxMTNhMzE1",
+      "description": "Explore how to use GitHub Actions to create an automated Azure Kubernetes Service deployment pipeline.",
+      "duration": 80,
+      "instructor": "",
+      "level": "beginner",
+      "product": "github",
+      "rating_average": 4.5,
+      "rating_count": 36,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Azure Kubernetes Service deployment pipeline and GitHub Actions",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/aks-deployment-pipeline-github-actions/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "bXMtbGVhcm4wOTYyYmI0YS03YjJlLTRjMzgtYTBiNC00OWI3ODJhNjJlNGU1",
+      "description": "Learn Microsoft guidelines for the development of responsible conversational AI, such as chat bots and voice-controlled systems.",
+      "duration": 39,
+      "instructor": "",
+      "level": "beginner",
+      "product": "dynamics-365",
+      "rating_average": 4.82,
+      "rating_count": 33,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Discover Microsoft guidelines for responsible conversational AI development",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/responsible-conversational-ai/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    }
+  ],
+  "@odata.nextLink": "https://anhth-ai-enriched-corporate-search-service.search.windows.net/indexes('azuretable-index')/docs?api-version=2021-04-30-Preview&search=%2A&facet=role&$skip=50"
+}
+
+4.
+Query: search="Mike Montoya" -flatlet&searchMode=all 
+Result: {
+  "@odata.context": "https://anhth-ai-enriched-corporate-search-service.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 1.30288,
+      "Key": "Y29tcGFueS1tb29kbGUzMGUzYzZlNS05NDE1LTRkODUtODIyOS1jMjEzMzIwM2M1MzU1",
+      "description": "Learn the policies related to the distribution and use of computers, phones, software, and other technology",
+      "duration": 1,
+      "instructor": "Mike Montoya",
+      "level": "beginner",
+      "product": "NA",
+      "rating_average": 4.9,
+      "rating_count": 550,
+      "role": "all",
+      "source": "Company Moodle",
+      "title": "Onboarding - Technology Policies ",
+      "url": "https://www.example.com/course2",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1.30288,
+      "Key": "Y29tcGFueS1tb29kbGU1YjI5MzI4My04MWU2LTRmODktYTBhYi03MDUzOTg4ZDZmNmE1",
+      "description": "Learn how to track billable and non-billable hours by assigning time to projects and other relevant time codes",
+      "duration": 1,
+      "instructor": "Mike Montoya",
+      "level": "beginner",
+      "product": "NA",
+      "rating_average": 4.8,
+      "rating_count": 540,
+      "role": "all",
+      "source": "Company Moodle",
+      "title": "Onboarding - Time Tracking ",
+      "url": "https://www.example.com/course1",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1.30288,
+      "Key": "Y29tcGFueS1tb29kbGVjNmI3ZmJkMC03MzkwLTQzNzAtYWI3Ny00NTAyNzU5NmI1MjA1",
+      "description": "Understand ways you can be more healthy in the work environment including what ergonomic equipment is available to you",
+      "duration": 1,
+      "instructor": "Mike Montoya",
+      "level": "beginner",
+      "product": "NA",
+      "rating_average": 4.6,
+      "rating_count": 525,
+      "role": "all",
+      "source": "Company Moodle",
+      "title": "Workplace Health",
+      "url": "https://www.example.com/course13",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    }
+  ]
+}
+
+5.
+Query: search=Integration $filter=(instructor eq "Gerald Dominguez" and source eq "Company Moodle"
+Result: 
+{
+  "@odata.context": "https://anhth-ai-enriched-corporate-search-service.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 7.881723,
+      "Key": "Y29tcGFueS1tb29kbGUxN2IxZWVkYy0wZTk2LTRlNWItODE5OS04M2E0ODQzODhlZmU1",
+      "description": "Learn our internal best practices for using the O365 suite including email signatures, file storage and other issues",
+      "duration": 2,
+      "instructor": "Gerald Dominguez",
+      "level": "beginner",
+      "product": "O365",
+      "rating_average": 4.6,
+      "rating_count": 510,
+      "role": "all",
+      "source": "Company Moodle",
+      "title": "O365",
+      "url": "https://www.example.com/course10",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 7.881723,
+      "Key": "Y29tcGFueS1tb29kbGVjMDE0Y2YzNi0yYTgzLTRkZWQtYmZlNS1kNjJmNDA1YmE5NzA1",
+      "description": "This course will teach you best practices for communicating with your team while working remotely",
+      "duration": 1,
+      "instructor": "Gerald Dominguez",
+      "level": "beginner",
+      "product": "NA",
+      "rating_average": 4.7,
+      "rating_count": 325,
+      "role": "all",
+      "source": "Company Moodle",
+      "title": "Remote work",
+      "url": "https://www.example.com/course11",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 7.5607567,
+      "Key": "Y29tcGFueS1tb29kbGUyNzhkMjk5ZS1lZjBlLTQ3ZmItOGU5OC01YTMxYTA3MzUxOWM1",
+      "description": "For developers, learn our best practices for securely connecting to databases",
+      "duration": 2,
+      "instructor": "Eileen Diaz",
+      "level": "advanced",
+      "product": "SQL",
+      "rating_average": 4.8,
+      "rating_count": 115,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "Security for database code",
+      "url": "https://www.example.com/course7",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 7.5607567,
+      "Key": "Y29tcGFueS1tb29kbGUzMGUzYzZlNS05NDE1LTRkODUtODIyOS1jMjEzMzIwM2M1MzU1",
+      "description": "Learn the policies related to the distribution and use of computers, phones, software, and other technology",
+      "duration": 1,
+      "instructor": "Mike Montoya",
+      "level": "beginner",
+      "product": "NA",
+      "rating_average": 4.9,
+      "rating_count": 550,
+      "role": "all",
+      "source": "Company Moodle",
+      "title": "Onboarding - Technology Policies ",
+      "url": "https://www.example.com/course2",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 7.5607567,
+      "Key": "Y29tcGFueS1tb29kbGUzY2JiMzgwMC0yNTU0LTQxMjEtYmIzYS1mMzY1ZGViMGMzYjY1",
+      "description": "Learn our best practices for various tools such as Leaflet",
+      "duration": 2,
+      "instructor": "Robert Gillis",
+      "level": "intermediate",
+      "product": "leaflet",
+      "rating_average": 3.9,
+      "rating_count": 28,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "Maps",
+      "url": "https://www.example.com/course6",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 7.5607567,
+      "Key": "Y29tcGFueS1tb29kbGU1NzhhMzMxOS1hYTdjLTRkMmYtYjZhNC0zOWU5NjM4YjBhODU1",
+      "description": "For administrators, this course will teach you how our CI/CD pipelines work from an operations perspective",
+      "duration": 5,
+      "instructor": "Claudia Blackman",
+      "level": "intermediate",
+      "product": "jenkins",
+      "rating_average": 4.9,
+      "rating_count": 56,
+      "role": "admin",
+      "source": "Company Moodle",
+      "title": "DevOps for Ops",
+      "url": "https://www.example.com/course5",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 7.5607567,
+      "Key": "Y29tcGFueS1tb29kbGU1YjI5MzI4My04MWU2LTRmODktYTBhYi03MDUzOTg4ZDZmNmE1",
+      "description": "Learn how to track billable and non-billable hours by assigning time to projects and other relevant time codes",
+      "duration": 1,
+      "instructor": "Mike Montoya",
+      "level": "beginner",
+      "product": "NA",
+      "rating_average": 4.8,
+      "rating_count": 540,
+      "role": "all",
+      "source": "Company Moodle",
+      "title": "Onboarding - Time Tracking ",
+      "url": "https://www.example.com/course1",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 7.5607567,
+      "Key": "Y29tcGFueS1tb29kbGU2YjVkM2Y1NS1lYjAyLTQ5OWQtOTc3NS0yZTBlMjU2NTllMDc1",
+      "description": "Learn our company's Principles for the Responsible Use of AI",
+      "duration": 1,
+      "instructor": "Eileen Diaz",
+      "level": "intermediate",
+      "product": "NA",
+      "rating_average": 4.3,
+      "rating_count": 24,
+      "role": "architect",
+      "source": "Company Moodle",
+      "title": "Ethics in AI",
+      "url": "https://www.example.com/course12",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 7.5607567,
+      "Key": "Y29tcGFueS1tb29kbGU4NWVlNzI1Yi00YWUwLTQ3MTktODc4NS1kZGY5OWUxOWZhZjE1",
+      "description": "For administrators, learn our best practices for securing all databases",
+      "duration": 3,
+      "instructor": "Eileen Diaz",
+      "level": "advanced",
+      "product": "SQL",
+      "rating_average": 4.3,
+      "rating_count": 45,
+      "role": "admin",
+      "source": "Company Moodle",
+      "title": "Security for database admins",
+      "url": "https://www.example.com/course8",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 7.5607567,
+      "Key": "Y29tcGFueS1tb29kbGU5NzAwZTFkYy1iMjkzLTQzMDYtOWUxYi0wZDM0NTg2M2RiNTQ1",
+      "description": "This course will teach you the specific ways our company uses Git. You will learn details for comments, branching, pull requests, and other procsses",
+      "duration": 3,
+      "instructor": "Claudia Blackman",
+      "level": "beginner",
+      "product": "git",
+      "rating_average": 4.5,
+      "rating_count": 125,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "Git Workflow ",
+      "url": "https://www.example.com/course3",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 7.5607567,
+      "Key": "Y29tcGFueS1tb29kbGU5ZGY4NDRmZC1lZWZlLTQ4ODAtODM0MS05MzY3MzIxNzRiYjU1",
+      "description": "Learn our policies for utilizing encryption including key management for projects",
+      "duration": 3,
+      "instructor": "Eileen Diaz",
+      "level": "advanced",
+      "product": "NA",
+      "rating_average": 4.2,
+      "rating_count": 95,
+      "role": "architect",
+      "source": "Company Moodle",
+      "title": "Encryption and security",
+      "url": "https://www.example.com/course14",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 7.5607567,
+      "Key": "Y29tcGFueS1tb29kbGViNTFlZGUxNC0wMjVmLTQ5YWQtOWU5ZS00NGFkMjg0ZWVkZGE1",
+      "description": "For developers, this course will teach you how to hook your dev work into our existing CI/CD pipelines.",
+      "duration": 3,
+      "instructor": "Claudia Blackman",
+      "level": "intermediate",
+      "product": "jenkins",
+      "rating_average": 3.8,
+      "rating_count": 101,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "DevOps for Dev",
+      "url": "https://www.example.com/course4",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 7.5607567,
+      "Key": "Y29tcGFueS1tb29kbGVjNmI3ZmJkMC03MzkwLTQzNzAtYWI3Ny00NTAyNzU5NmI1MjA1",
+      "description": "Understand ways you can be more healthy in the work environment including what ergonomic equipment is available to you",
+      "duration": 1,
+      "instructor": "Mike Montoya",
+      "level": "beginner",
+      "product": "NA",
+      "rating_average": 4.6,
+      "rating_count": 525,
+      "role": "all",
+      "source": "Company Moodle",
+      "title": "Workplace Health",
+      "url": "https://www.example.com/course13",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 7.5607567,
+      "Key": "Y29tcGFueS1tb29kbGVkM2YwYzk1NS1hYzZlLTRjZWQtYjkxYi1mZmNlZjNlOGNlZGU1",
+      "description": "For developers, learn our best practices for writing secure code for web, server, and desktop development",
+      "duration": 3,
+      "instructor": "Eileen Diaz",
+      "level": "intermediate",
+      "product": "NA",
+      "rating_average": 4.4,
+      "rating_count": 132,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "Code security",
+      "url": "https://www.example.com/course9",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    }
+  ]
+}

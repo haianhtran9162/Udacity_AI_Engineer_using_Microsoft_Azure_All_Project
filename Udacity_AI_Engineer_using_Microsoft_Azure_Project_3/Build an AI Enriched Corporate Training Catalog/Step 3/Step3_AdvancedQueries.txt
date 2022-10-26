@@ -1,0 +1,299 @@
+1.
+Query: search=Gerald Dominguez
+Result:
+{
+  "@odata.context": "https://anhth-ai-enriched-corporate-search-service.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 0.32096615,
+      "Key": "Y29tcGFueS1tb29kbGUxN2IxZWVkYy0wZTk2LTRlNWItODE5OS04M2E0ODQzODhlZmU1",
+      "description": "Learn our internal best practices for using the O365 suite including email signatures, file storage and other issues",
+      "duration": 2,
+      "instructor": "Gerald Dominguez",
+      "level": "beginner",
+      "product": "O365",
+      "rating_average": 4.6,
+      "rating_count": 510,
+      "role": "all",
+      "source": "Company Moodle",
+      "title": "O365",
+      "url": "https://www.example.com/course10",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 0.32096615,
+      "Key": "Y29tcGFueS1tb29kbGVjMDE0Y2YzNi0yYTgzLTRkZWQtYmZlNS1kNjJmNDA1YmE5NzA1",
+      "description": "This course will teach you best practices for communicating with your team while working remotely",
+      "duration": 1,
+      "instructor": "Gerald Dominguez",
+      "level": "beginner",
+      "product": "NA",
+      "rating_average": 4.7,
+      "rating_count": 325,
+      "role": "all",
+      "source": "Company Moodle",
+      "title": "Remote work",
+      "url": "https://www.example.com/course11",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    }
+  ]
+}
+
+2.
+Query: search=Dominguez
+Result:
+{
+  "@odata.context": "https://anhth-ai-enriched-corporate-search-service.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 0.16048308,
+      "Key": "Y29tcGFueS1tb29kbGUxN2IxZWVkYy0wZTk2LTRlNWItODE5OS04M2E0ODQzODhlZmU1",
+      "description": "Learn our internal best practices for using the O365 suite including email signatures, file storage and other issues",
+      "duration": 2,
+      "instructor": "Gerald Dominguez",
+      "level": "beginner",
+      "product": "O365",
+      "rating_average": 4.6,
+      "rating_count": 510,
+      "role": "all",
+      "source": "Company Moodle",
+      "title": "O365",
+      "url": "https://www.example.com/course10",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 0.16048308,
+      "Key": "Y29tcGFueS1tb29kbGVjMDE0Y2YzNi0yYTgzLTRkZWQtYmZlNS1kNjJmNDA1YmE5NzA1",
+      "description": "This course will teach you best practices for communicating with your team while working remotely",
+      "duration": 1,
+      "instructor": "Gerald Dominguez",
+      "level": "beginner",
+      "product": "NA",
+      "rating_average": 4.7,
+      "rating_count": 325,
+      "role": "all",
+      "source": "Company Moodle",
+      "title": "Remote work",
+      "url": "https://www.example.com/course11",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    }
+  ]
+}
+
+3.
+Query: search=*&$select=publisher
+Result:
+{
+  "@odata.context": "https://anhth-ai-enriched-corporate-search-service.search.windows.net/indexes('azureblob-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 1,
+      "publisher": ""
+    },
+    {
+      "@search.score": 1,
+      "publisher": "Springer"
+    },
+    {
+      "@search.score": 1,
+      "publisher": "Springer"
+    },
+    {
+      "@search.score": 1,
+      "publisher": ""
+    },
+    {
+      "@search.score": 1,
+      "publisher": "Springer"
+    },
+    {
+      "@search.score": 1,
+      "publisher": "Springer"
+    },
+    {
+      "@search.score": 1,
+      "publisher": "Springer"
+    },
+    {
+      "@search.score": 1,
+      "publisher": "Springer"
+    },
+    {
+      "@search.score": 1,
+      "publisher": "Springer"
+    },
+    {
+      "@search.score": 1,
+      "publisher": "Springer"
+    },
+    {
+      "@search.score": 1,
+      "publisher": ""
+    },
+    {
+      "@search.score": 1,
+      "publisher": "Springer"
+    },
+    {
+      "@search.score": 1,
+      "publisher": ""
+    },
+    {
+      "@search.score": 1,
+      "publisher": "Springer"
+    },
+    {
+      "@search.score": 1,
+      "publisher": "Springer"
+    },
+    {
+      "@search.score": 1,
+      "publisher": "Springer"
+    },
+    {
+      "@search.score": 1,
+      "publisher": "Springer"
+    },
+    {
+      "@search.score": 1,
+      "publisher": "Springer"
+    },
+    {
+      "@search.score": 1,
+      "publisher": "Springer"
+    }
+  ]
+}
+
+4.
+Query: search=*&$select=publicationName, publicationDate
+Result:
+{
+  "@odata.context": "https://anhth-ai-enriched-corporate-search-service.search.windows.net/indexes('azureblob-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 1,
+      "publicationName": "",
+      "publicationDate": ""
+    },
+    {
+      "@search.score": 1,
+      "publicationName": "EURASIP Journal on Image and Video Processing",
+      "publicationDate": "2018-11-27"
+    },
+    {
+      "@search.score": 1,
+      "publicationName": "Business Research",
+      "publicationDate": "2020-11-01"
+    },
+    {
+      "@search.score": 1,
+      "publicationName": "",
+      "publicationDate": ""
+    },
+    {
+      "@search.score": 1,
+      "publicationName": "SpringerPlus",
+      "publicationDate": "2015-12-01"
+    },
+    {
+      "@search.score": 1,
+      "publicationName": "Complex Adaptive Systems Modeling",
+      "publicationDate": "2016-02-03"
+    },
+    {
+      "@search.score": 1,
+      "publicationName": "EURASIP Journal on Image and Video Processing",
+      "publicationDate": "2021-01-14"
+    },
+    {
+      "@search.score": 1,
+      "publicationName": "Human-centric Computing and Information Sciences",
+      "publicationDate": "2018-05-09"
+    },
+    {
+      "@search.score": 1,
+      "publicationName": "Journal of Trust Management",
+      "publicationDate": "2015-09-07"
+    },
+    {
+      "@search.score": 1,
+      "publicationName": "Human-centric Computing and Information Sciences",
+      "publicationDate": "2019-05-01"
+    },
+    {
+      "@search.score": 1,
+      "publicationName": "",
+      "publicationDate": ""
+    },
+    {
+      "@search.score": 1,
+      "publicationName": "Journal of Big Data",
+      "publicationDate": "2018-09-22"
+    },
+    {
+      "@search.score": 1,
+      "publicationName": "",
+      "publicationDate": ""
+    },
+    {
+      "@search.score": 1,
+      "publicationName": "Journal of Big Data",
+      "publicationDate": "2019-02-28"
+    },
+    {
+      "@search.score": 1,
+      "publicationName": "Journal of Big Data",
+      "publicationDate": "2019-06-06"
+    },
+    {
+      "@search.score": 1,
+      "publicationName": "Journal of Big Data",
+      "publicationDate": "2019-10-31"
+    },
+    {
+      "@search.score": 1,
+      "publicationName": "Journal of Big Data",
+      "publicationDate": "2020-02-28"
+    },
+    {
+      "@search.score": 1,
+      "publicationName": "Brain Informatics",
+      "publicationDate": "2015-09-01"
+    },
+    {
+      "@search.score": 1,
+      "publicationName": "Brain Informatics",
+      "publicationDate": "2020-09-21"
+    }
+  ]
+}
+
+5. 
+Query: search="EURASIP Journal on Image and Video Processing"&$select=doi
+Result:
+{
+  "@odata.context": "https://anhth-ai-enriched-corporate-search-service.search.windows.net/indexes('azureblob-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 32.06787,
+      "doi": "10.1186/s13640-020-00545-z"
+    },
+    {
+      "@search.score": 31.42797,
+      "doi": "10.1186/s13640-018-0373-8"
+    }
+  ]
+}

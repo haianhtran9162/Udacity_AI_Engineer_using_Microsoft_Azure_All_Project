@@ -1,0 +1,64 @@
+{
+    "@odata.context": "https://anhth-ai-enriched-corporate-search-service.search.windows.net/$metadata#indexers/$entity",
+    "@odata.etag": "\"0x8DAB70E98BF684A\"",
+    "name": "azureblob-indexer",
+    "description": "",
+    "dataSourceName": "anhth-papers",
+    "skillsetName": "azureblob-skillset",
+    "targetIndexName": "azureblob-index",
+    "disabled": null,
+    "schedule": null,
+    "parameters": {
+        "batchSize": null,
+        "maxFailedItems": 0,
+        "maxFailedItemsPerBatch": 0,
+        "base64EncodeKeys": null,
+        "configuration": {
+            "dataToExtract": "contentAndMetadata",
+            "parsingMode": "default",
+            "imageAction": "generateNormalizedImages"
+        }
+    },
+    "fieldMappings": [{
+        "sourceFieldName": "metadata_storage_path",
+        "targetFieldName": "metadata_storage_path",
+        "mappingFunction": {
+            "name": "base64Encode"
+        }
+    }],
+    "outputFieldMappings": [{
+            "sourceFieldName": "/document/merged_content/keyphrases",
+            "targetFieldName": "keyphrases"
+        },
+        {
+            "sourceFieldName": "/document/merged_content",
+            "targetFieldName": "merged_content"
+        },
+        {
+            "sourceFieldName": "/document/normalized_images/*/text",
+            "targetFieldName": "text"
+        },
+        {
+            "sourceFieldName": "/document/normalized_images/*/layoutText",
+            "targetFieldName": "layoutText"
+        },
+        {
+            "sourceFieldName": "/document/publicationname",
+            "targetFieldName": "publicationName"
+        },
+        {
+            "sourceFieldName": "/document/publisher",
+            "targetFieldName": "publisher"
+        },
+        {
+            "sourceFieldName": "/document/doi",
+            "targetFieldName": "doi"
+        },
+        {
+            "sourceFieldName": "/document/publicationdate",
+            "targetFieldName": "publicationDate"
+        }
+    ],
+    "cache": null,
+    "encryptionKey": null
+}

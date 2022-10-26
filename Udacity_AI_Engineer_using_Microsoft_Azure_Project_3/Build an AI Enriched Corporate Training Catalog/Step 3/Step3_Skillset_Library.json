@@ -1,0 +1,109 @@
+{
+    "@odata.context": "https://anhth-ai-enriched-corporate-search-service.search.windows.net/$metadata#skillsets/$entity",
+    "@odata.etag": "\"0x8DAB5631F1E7CBB\"",
+    "name": "azureblob-skillset",
+    "description": "Skillset created from the portal. skillsetName: azureblob-skillset; contentField: merged_content; enrichmentGranularity: document; knowledgeStoreStorageAccount: ;",
+    "skills": [{
+            "@odata.type": "#Microsoft.Skills.Text.KeyPhraseExtractionSkill",
+            "name": "#1",
+            "description": null,
+            "context": "/document/merged_content",
+            "defaultLanguageCode": "en",
+            "maxKeyPhraseCount": null,
+            "modelVersion": null,
+            "inputs": [{
+                "name": "text",
+                "source": "/document/merged_content"
+            }],
+            "outputs": [{
+                "name": "keyPhrases",
+                "targetName": "keyphrases"
+            }]
+        },
+        {
+            "@odata.type": "#Microsoft.Skills.Text.MergeSkill",
+            "name": "#2",
+            "description": null,
+            "context": "/document",
+            "insertPreTag": " ",
+            "insertPostTag": " ",
+            "inputs": [{
+                    "name": "text",
+                    "source": "/document/content"
+                },
+                {
+                    "name": "itemsToInsert",
+                    "source": "/document/normalized_images/*/text"
+                },
+                {
+                    "name": "offsets",
+                    "source": "/document/normalized_images/*/contentOffset"
+                }
+            ],
+            "outputs": [{
+                "name": "mergedText",
+                "targetName": "merged_content"
+            }]
+        },
+        {
+            "@odata.type": "#Microsoft.Skills.Vision.OcrSkill",
+            "name": "#3",
+            "description": null,
+            "context": "/document/normalized_images/*",
+            "textExtractionAlgorithm": null,
+            "lineEnding": "Space",
+            "defaultLanguageCode": "en",
+            "detectOrientation": true,
+            "inputs": [{
+                "name": "image",
+                "source": "/document/normalized_images/*"
+            }],
+            "outputs": [{
+                    "name": "text",
+                    "targetName": "text"
+                },
+                {
+                    "name": "layoutText",
+                    "targetName": "layoutText"
+                }
+            ]
+        },
+        {
+            "@odata.type": "#Microsoft.Skills.Custom.WebApiSkill",
+            "uri": "https://anhth-func-app.azurewebsites.net/api/springerlookup?code=BylEWZsWWenKP4O9_MPNR9yRj3Pp6ibp2K6zevlTFElWAzFup2w_8w==",
+            "httpHeaders": {},
+            "httpMethod": "POST",
+            "timeout": "PT30S",
+            "batchSize": 1,
+            "degreeOfParallelism": 1,
+            "inputs": [{
+                "name": "ArticleName",
+                "source": "/document/metadata_title"
+            }],
+            "outputs": [{
+                    "name": "publicationName",
+                    "targetName": "publicationname"
+                },
+                {
+                    "name": "publisher",
+                    "targetName": "publisher"
+                },
+                {
+                    "name": "doi",
+                    "targetName": "doi"
+                },
+                {
+                    "name": "publicationDate",
+                    "targetName": "publicationdate"
+                }
+            ]
+        }
+    ],
+    "cognitiveServices": {
+        "@odata.type": "#Microsoft.Azure.Search.CognitiveServicesByKey",
+        "description": "/subscriptions/6311e2c3-cf5c-4b30-9d8b-cd5b7219a8a5/resourceGroups/aind-211902/providers/Microsoft.CognitiveServices/accounts/anhth-ai-enriched-corporate-cognitive-service",
+        "key": "b52c9d6be67d41b4a97bb4eb6572b77a"
+    },
+    "knowledgeStore": null,
+    "encryptionKey": null
+}

@@ -1,0 +1,30 @@
+{
+  "@odata.context": "https://anhth-ai-enriched-corporate-search-service.search.windows.net/$metadata#skillsets/$entity",
+  "@odata.etag": "\"0x8DAB56C0C4286E5\"",
+  "name": "azuretable-skillset",
+  "description": "Skillset created from the portal. skillsetName: azuretable-skillset; contentField: PartitionKey; enrichmentGranularity: document; knowledgeStoreStorageAccount: ;",
+  "skills": [{
+    "@odata.type": "#Microsoft.Skills.Text.KeyPhraseExtractionSkill",
+    "name": "#1",
+    "description": null,
+    "context": "/document/PartitionKey",
+    "defaultLanguageCode": "en",
+    "maxKeyPhraseCount": null,
+    "modelVersion": null,
+    "inputs": [{
+      "name": "text",
+      "source": "/document/PartitionKey"
+    }],
+    "outputs": [{
+      "name": "keyPhrases",
+      "targetName": "keyphrases"
+    }]
+  }],
+  "cognitiveServices": {
+    "@odata.type": "#Microsoft.Azure.Search.CognitiveServicesByKey",
+    "description": "/subscriptions/6311e2c3-cf5c-4b30-9d8b-cd5b7219a8a5/resourceGroups/aind-211902/providers/Microsoft.CognitiveServices/accounts/anhth-ai-enriched-corporate-cognitive-service",
+    "key": "b52c9d6be67d41b4a97bb4eb6572b77a"
+  },
+  "knowledgeStore": null,
+  "encryptionKey": null
+}

@@ -1,0 +1,11 @@
+Problem 1: When i create the model detect the lighter in img but the result is not good. 
+I got very low Precision and High recall. I guest i need more data. 
+So I go to Googling and collecting more data about the lighter and training again.
+Finall I get very good result with 84.6% Precision score and 100% Recall score. 
+But... I scare it is overfitting =))
+
+Problem 2: I upload videos to videoindexer.ai. The upload is successful but the process hangs when the video indexing is 50%. 
+I also do not understand why. I have tried deleting and re-uploading but the same problem.
+So I ask the mentor of the course and get the answer is "Probably the error could be related to size or format."
+I try resize my video and upload again and it work :v
+

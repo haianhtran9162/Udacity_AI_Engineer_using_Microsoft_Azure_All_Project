@@ -1,0 +1,1824 @@
+1. 
+Query: https://anhth-ai-enriched-corporate-search-service.search.windows.net/indexes/azuretable-index/docs?api-version=2021-04-30-Preview&search=azure
+Result:
+{
+  "@odata.context": "https://anhth-ai-enriched-corporate-search-service.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4wMTVjMjk0Ny04ZTRlLTQ0ZjUtYjM0Mi0wNTY0ZjBlZTJmYmY1",
+      "description": "Learn to manage LUIS apps through versioning, key management, handling data, and improving predictions.",
+      "duration": 24,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure",
+      "rating_average": 4.77,
+      "rating_count": 106,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Manage your Language Understanding Intelligent Service (LUIS) Apps",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/manage-language-understanding-intelligent-service-apps/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4wMTczMWMxMC0yMGJiLTQxZTctYmEyMS04NTI4NjY5ZGNkYzM1",
+      "description": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+      "duration": 18,
+      "instructor": "",
+      "level": "advanced",
+      "product": "azure",
+      "rating_average": 4.75,
+      "rating_count": 137,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/use-containers-language-understanding-intelligent-service-apps/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4wMWMzZTgwMi00NjdhLTRmYTYtODI4ZC01ZTdlNWE2YTVkMjE1",
+      "description": "Explore two capabilities in the DevOps taxonomy, Continuous Collaboration and Continuous Improvement.",
+      "duration": 17,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.7,
+      "rating_count": 1425,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Characterize DevOps Continuous Collaboration and Continuous Improvement",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/characterize-devops-continous-collaboration-improvement/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4wMjVkOTI4ZC0wMjZmLTRiYzktYmZmNi1mN2YzMjI5NjY3YzE1",
+      "description": "Implement CI/CD pipeline for Node.js applications. Automate deployment of Vue, React, Angular or webpack apps with Azure Pipelines.",
+      "duration": 44,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.9,
+      "rating_count": 41,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Automate Node.js deployments with Azure Pipelines",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/deploy-nodejs/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4wMmEwZTU3OS01Yzg4LTRmYmYtOTMwNy01NzYwNjc3YTZlZmI1",
+      "description": "Learn how to manage changes to your repository source by using pull requests.",
+      "duration": 49,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.75,
+      "rating_count": 292,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Manage repository changes by using pull requests on GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/manage-changes-pull-requests-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4wNDg5MzRhZi0wMmU0LTQzYjgtYmQyMi00OGI2YTExNGVmZGI1",
+      "description": "Use Python, Flask, and Azure Cognitive Services to build a web app that incorporates AI",
+      "duration": 75,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure",
+      "rating_average": 4.65,
+      "rating_count": 248,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Build an AI web app by using Python and Flask",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/python-flask-build-ai-web-app/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4wNGU0MTEwMC04MDNhLTQ1MzQtYjVmYS1iNGFjMzcwZDJkMDY1",
+      "description": "Implement a CI/CD pipeline for multiple containers to Kubernetes.",
+      "duration": 56,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.7,
+      "rating_count": 401,
+      "role": "devops-engineer",
+      "source": "MS Learn",
+      "title": "Automate multi-container Kubernetes deployments with Azure Pipelines",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/deploy-kubernetes/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4wNGZiNjlmMC04MjAxLTRkOWUtYThhYy0yZmEzMGRlN2JmZjU1",
+      "description": "DevOps is the union of people, process, and products to enable continuous delivery of value to our end users. Discover the first two foundation pillars of DevOps: Culture and Lean Product.",
+      "duration": 25,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.69,
+      "rating_count": 3395,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Introduce the foundation pillars of DevOps: Culture and Lean Product",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/introduce-foundation-pillars-devops/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4wNTU4OWYyNi02ZTgwLTQ4NDItOWY0MS1hZmIzOGFhYTVhZGQ1",
+      "description": "Run Selenium UI tests, a form of functional testing, in Azure Pipelines.",
+      "duration": 63,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.66,
+      "rating_count": 800,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Run functional tests in Azure Pipelines",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/run-functional-tests-azure-pipelines/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4wNjY5NTU1MS1hM2IzLTQ5N2ItOWY0ZS03NTkwMTU4ZWIzZTA1",
+      "description": "Explore two capabilities in the DevOps taxonomy, Continuous Collaboration and Continuous Improvement.",
+      "duration": 17,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.7,
+      "rating_count": 1425,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Characterize DevOps Continuous Collaboration and Continuous Improvement",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/characterize-devops-continous-collaboration-improvement/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4wNzNkYTMyOC1iMGFjLTRhMzQtYmVkNi02MmI2YzFjYmM4YWQ1",
+      "description": "Create a basic GitHub Action and use that action in a workflow.",
+      "duration": 49,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.71,
+      "rating_count": 254,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Automate development tasks by using GitHub Actions",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/github-actions-automate-tasks/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4wODZkMjBmYS04NWU2LTRlOTUtYTZmZS1lOTViNTI1YWYzMjY1",
+      "description": "Explore the first two capabilities in the DevOps taxonomy, Continuous Planning and Continuous Integration.",
+      "duration": 22,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.73,
+      "rating_count": 2061,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Analyze DevOps Continuous Planning and Continuous Integration",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/analyze-devops-continuous-planning-intergration/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4wOTg2OGM1NS0yYjg3LTQ3NmYtOTE4OC03MDZiOTM2M2JkNjM1",
+      "description": "Learn how infrastructure as code enables you to describe and automatically provision the infrastructure that you need for your application.",
+      "duration": 122,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure",
+      "rating_average": 4.69,
+      "rating_count": 450,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Provision infrastructure in Azure Pipelines",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/provision-infrastructure-azure-pipelines/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4wYTg0MzVjNi1kOTJjLTRjYjAtODM0Ny01ZWZiMTAxMTEzYWY1",
+      "description": "Azure Pipelines help automate building, deploying, and maintaining your applications. While they support a wide range of platforms and programming languages, in this module you’ll focus on using them to implement ASP.NET apps on Azure App Service Web Apps with Azure SQL Database as their data store.",
+      "duration": 65,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure",
+      "rating_average": 4.85,
+      "rating_count": 13,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Deploy ASP.NET web apps with Azure Pipelines",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/deploy-aspnet-apps-azure-app-service-pipelines/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4wYWE4NmU1ZC1lZGU5LTRiZDgtOGU2Yy02Y2VmNzliMDI2ODA1",
+      "description": "Create a language translator application for your mixed reality device (Windows Mixed Reality, HoloLens 2, etc.) by using Cognitive Services.",
+      "duration": 70,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.6,
+      "rating_count": 25,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Create a language translator application with Unity and Azure Cognitive Services",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-language-translator-mixed-reality-application-unity-azure-cognitive-services/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4wYjdkNjdlOS01YWY3LTQ1MzAtYThmYi1iZTRiNTRiNGFjMzE1",
+      "description": "There are three things required to make DevOps happen: the cultural component, tools and technology, and architecture. Discover the last two foundation pillars of DevOps, Architecture and Technology!",
+      "duration": 16,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.75,
+      "rating_count": 1706,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Define the foundation pillars of DevOps: Architecture and Technology",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/define-foundation-pillars/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4wZDU4NDc4Mi02OTU2LTQzMTctYTcwYy1hMGNjMTI0OGQ5MTA1",
+      "description": "Explore the strategic components, special factors, and use cases of an AI strategy in healthcare that creates business value, with INSEAD and Microsoft.",
+      "duration": 40,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure",
+      "rating_average": 4.78,
+      "rating_count": 736,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Define an AI strategy to create business value in healthcare",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-strategy-in-healthcare/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4wZDdhMDM5OC0wNDU1LTQ3NTktODU1NS0zYWUyNTc4MzU1MzM1",
+      "description": "Explore two capabilities in the DevOps taxonomy, Continuous Delivery and Continuous Quality.",
+      "duration": 18,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.73,
+      "rating_count": 1614,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Explain DevOps Continuous Delivery and Continuous Quality",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/explain-devops-continous-delivery-quality/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4wZWYxODdmYi1iNDU3LTRmZjYtYThlZi04YjM0NWI1YzI4OGM1",
+      "description": "Explore the strategic components, special factors, and use cases of an AI strategy in retail that creates business value, with INSEAD and Microsoft.",
+      "duration": 40,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure",
+      "rating_average": 4.77,
+      "rating_count": 703,
+      "role": "functional-consultant",
+      "source": "MS Learn",
+      "title": "Define an AI strategy to create business value in retail",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-strategy-in-retail/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4xMTI4ODdkMy03MWYwLTQ1ZWMtYjZhZi03ODlhMjA0YjEzZWM1",
+      "description": "Explore two capabilities in the DevOps taxonomy, Continuous Security and Continuous Operations.",
+      "duration": 22,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.71,
+      "rating_count": 1029,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Explore DevOps Continuous Security and Continuous Operations",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/explore-devops-continuous-security-operations/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4xMTU2N2QxZi04ZjA2LTQ1NzMtOWFkNC0yYjhlYjJkYmM0Nzk1",
+      "description": "Learn the necessary cultural changes for enterprise sales organizations to make AI transformation successful, and how they fit into a holistic AI strategy.",
+      "duration": 38,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure",
+      "rating_average": 4.7,
+      "rating_count": 581,
+      "role": "functional-consultant",
+      "source": "MS Learn",
+      "title": "Discover how to foster an AI-ready culture in sales",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/foster-ai-ready-culture-sales/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4xMzEyYWM1My0yZTI2LTRlYzAtOTQ4ZC1lYTQ0Mzg2YWJjMzY1",
+      "description": "Learn to implement a release based workflow on GitHub using project boards, branches, and releases.",
+      "duration": 104,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.78,
+      "rating_count": 244,
+      "role": "devops-engineer",
+      "source": "MS Learn",
+      "title": "Manage software delivery by using a release based workflow on GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/release-based-workflow-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4xM2E0OTlhNy01NjAzLTQ4MDMtYjIzOS1hNDhjOWEyMTdlNjc1",
+      "description": "Learn to search and organize repository history by using filters, blame, and cross-linking on GitHub.",
+      "duration": 38,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.79,
+      "rating_count": 241,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Search and organize repository history by using GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/search-organize-repository-history-github/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4xNDk0MzE0Zi0zNmVlLTQ5Y2EtOWQ5Zi1hZGM3OGJlOTliYzA1",
+      "description": "Learn to use Markdown to communicate with brevity, clarity, and expression.",
+      "duration": 62,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.76,
+      "rating_count": 288,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Communicate effectively on GitHub by using Markdown",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/communicate-using-markdown/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4xNGNjYjRmZi1mZjU0LTQxM2MtYmUwMy1hZTA5ZGMxM2Q0YmY1",
+      "description": "Run Selenium UI tests, a form of functional testing, in Azure Pipelines.",
+      "duration": 63,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.66,
+      "rating_count": 800,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Run functional tests in Azure Pipelines",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/run-functional-tests-azure-pipelines/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4xNWYwMmM2MC0zMDFiLTQ0MTgtOTM2OC0wNDRjMGJiY2QzNmY1",
+      "description": "Train a machine learning model with Azure Machine Learning",
+      "duration": 40,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.63,
+      "rating_count": 1998,
+      "role": "data-scientist",
+      "source": "MS Learn",
+      "title": "Train a machine learning model with Azure Machine Learning",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/train-local-model-with-azure-mls/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4xNmJjY2I1Ny0yMzAzLTQyZjEtYjIzZi1mM2MyMzEyNWU4Mzg1",
+      "description": "Learn to use the GitHub integration in Visual Studio Code, including authentication, publishing repos, and viewing your repo timeline.",
+      "duration": 22,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.82,
+      "rating_count": 73,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Introduction to GitHub in Visual Studio Code",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/introduction-to-github-visual-studio-code/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4xNmZmZTJhMS0zMzQ0LTQ1YjctODczNi00ZjA3MGFlOWI1ZDk1",
+      "description": "Azure Cognitive Services enable developers to easily add cognitive features into their applications. Learn how to configure and manage these services for your AI application needs.",
+      "duration": 44,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.56,
+      "rating_count": 25,
+      "role": "devops-engineer",
+      "source": "MS Learn",
+      "title": "Create and manage Cognitive Services",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-manage-cognitive-services/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4xNzY5ODAxZi1lYTkzLTQ1NmQtYWZlNC0wNmRjMDE5ZThmNzE1",
+      "description": "Implement a CI/CD pipeline for Azure Functions.",
+      "duration": 46,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.69,
+      "rating_count": 378,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Automate Azure Functions deployments with Azure Pipelines",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/deploy-azure-functions/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4xOTNjYTJkZC0zNjdhLTQzMjctOGZlNi0wMTZkZTk4NmY1Mzk1",
+      "description": "DevOps is the union of people, process, and products to enable continuous delivery of value to our end users. Discover the first two foundation pillars of DevOps: Culture and Lean Product.",
+      "duration": 25,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.69,
+      "rating_count": 3395,
+      "role": "business-owner",
+      "source": "MS Learn",
+      "title": "Introduce the foundation pillars of DevOps: Culture and Lean Product",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/introduce-foundation-pillars-devops/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4xOTQyNjZjYy03MjFiLTRiODUtYWFlYy1jNTNjZGM3YTkzNzk1",
+      "description": "Learn Microsoft development guidelines for fair and secure responsible conversational AI.",
+      "duration": 36,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.85,
+      "rating_count": 13,
+      "role": "functional-consultant",
+      "source": "MS Learn",
+      "title": "Discover Microsoft safety guidelines for responsible conversational AI development",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/secure-responsible-conversational-ai/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4xOWVlNGZmNy1jYjg2LTQ4ZjMtODNlYy03OGVkZTkxNDQwY2Y1",
+      "description": "Learn how to host your personal, organization, and project sites for free with GitHub Pages.",
+      "duration": 72,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.8,
+      "rating_count": 118,
+      "role": "student",
+      "source": "MS Learn",
+      "title": "Create and host web sites by using GitHub Pages",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-host-web-sites-github-pages/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4xYTg5ZDNmNC05NmZmLTRkZDEtYTY2MC0yYTE4NDk3Y2UxODE1",
+      "description": "DevOps is the union of people, process, and products to enable continuous delivery of value to our end users. Discover the first two foundation pillars of DevOps: Culture and Lean Product.",
+      "duration": 25,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.69,
+      "rating_count": 3395,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Introduce the foundation pillars of DevOps: Culture and Lean Product",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/introduce-foundation-pillars-devops/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4xYjQ4NDI1Ni0yNjVkLTQ1ODQtOTZmMS0yODgxOTg4OGM5MmY1",
+      "description": "Run configuration management tools in Azure Pipelines to help keep your infrastructure configured as you need.",
+      "duration": 62,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.57,
+      "rating_count": 464,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Configure infrastructure in Azure Pipelines",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/configure-infrastructure-azure-pipelines/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4xYzFjN2QyZC0yODI3LTQxZGQtYmNhNC01ZDllM2NkODIyMjM1",
+      "description": "Explore two capabilities in the DevOps taxonomy, Continuous Delivery and Continuous Quality.",
+      "duration": 18,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.73,
+      "rating_count": 1614,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Explain DevOps Continuous Delivery and Continuous Quality",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/explain-devops-continous-delivery-quality/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4xYzk0M2EwNC02ZWY3LTQ0NjEtYTdkOC04N2I1MDgyODlhY2Q1",
+      "description": "Learn enterprise AI management with our free open online course, including scaling AI.",
+      "duration": 56,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure",
+      "rating_average": 4.81,
+      "rating_count": 42,
+      "role": "functional-consultant",
+      "source": "MS Learn",
+      "title": "Implement AI in your organization",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/implement-ai-organization/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4xZDE1NjUwNS1mNDFjLTQ4MWUtYTMyOC02ZWVlZTM1ODQyMWQ1",
+      "description": "Explore two capabilities in the DevOps taxonomy, Continuous Delivery and Continuous Quality.",
+      "duration": 18,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.73,
+      "rating_count": 1614,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Explain DevOps Continuous Delivery and Continuous Quality",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/explain-devops-continous-delivery-quality/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4xZDM4YTJhZC05NzhjLTQ0YjAtYjdlMi0wOWM2YjRmNThlYzA1",
+      "description": "There are three things required to make DevOps happen: the cultural component, tools and technology, and architecture. Discover the last two foundation pillars of DevOps, Architecture and Technology!",
+      "duration": 16,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.75,
+      "rating_count": 1706,
+      "role": "business-analyst",
+      "source": "MS Learn",
+      "title": "Define the foundation pillars of DevOps: Architecture and Technology",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/define-foundation-pillars/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4xZGJkODA2Mi1jNWVhLTQ1ZDUtOWYzZS1mOGEwMTNmOTYzYTY1",
+      "description": "Investigate container for use with Cognitive Services",
+      "duration": 46,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.71,
+      "rating_count": 17,
+      "role": "devops-engineer",
+      "source": "MS Learn",
+      "title": "Investigate container for use with Cognitive Services",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/investigate-container-for-use-cognitive-services/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4xZjA1NWQ4Mi00NTlkLTRkNWMtOTFlOS01YzIxYWIyYzE5YjY1",
+      "description": "Learn how to contribute to an open-source project on GitHub.",
+      "duration": 27,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.88,
+      "rating_count": 59,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Contribute to an open-source project on GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/contribute-open-source/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4yMDQxZGFhZC1kZjM2LTQxOGYtYWJkYy1iM2RiNDEwODc2YTM1",
+      "description": "Explore the first two capabilities in the DevOps taxonomy, Continuous Planning and Continuous Integration.",
+      "duration": 22,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.73,
+      "rating_count": 2061,
+      "role": "business-owner",
+      "source": "MS Learn",
+      "title": "Analyze DevOps Continuous Planning and Continuous Integration",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/analyze-devops-continuous-planning-intergration/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4yMTkzM2JmOS02OGQzLTQ2NDktYjU4YS03OWZiYjQ3NmJlMDI1",
+      "description": "Provision databases in Azure Pipelines",
+      "duration": 62,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure",
+      "rating_average": 0,
+      "rating_count": 0,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Provision databases in Azure Pipelines",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/provision-database-azure-pipelines/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4yM2Q4YWM1Yi0wZTk4LTQwMTMtYjAwMS03YzhhM2Q2OWRjYTI1",
+      "description": "Implement CI/CD pipeline for Node.js applications. Automate deployment of Vue, React, Angular or webpack apps with Azure Pipelines.",
+      "duration": 44,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.9,
+      "rating_count": 41,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Automate Node.js deployments with Azure Pipelines",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/deploy-nodejs/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4yNDMxN2ZiMS1jYzYyLTQ4MWYtOWU1Zi1mMTBmMmM1ZWU0NDE1",
+      "description": "Learn how to contribute to an open-source project on GitHub.",
+      "duration": 27,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.88,
+      "rating_count": 59,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Contribute to an open-source project on GitHub",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/contribute-open-source/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4yNDQyZmVlNi1iZWM0LTRhYTQtYWZjYi0yZmU1OTg0MDA4Yjc1",
+      "description": "Learn how to host your personal, organization, and project sites for free with GitHub Pages.",
+      "duration": 72,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.8,
+      "rating_count": 118,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Create and host web sites by using GitHub Pages",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-host-web-sites-github-pages/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4yNjM3N2QxNy05YjExLTQ1NjUtYTU1My04YWE3MTU3NjQ1MDI1",
+      "description": "Investigate container for use with Cognitive Services",
+      "duration": 46,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.71,
+      "rating_count": 17,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Investigate container for use with Cognitive Services",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/investigate-container-for-use-cognitive-services/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4yNmZhOGVlMy02M2ZjLTRhMGYtODlkYS1jNmM4NTc5MGE4ZDY1",
+      "description": "Learn to interact with the GitHub API from GitHub Actions by using GitHub Script.",
+      "duration": 25,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.76,
+      "rating_count": 243,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Automate GitHub by using GitHub Script",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/automate-github-using-github-script/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4yNzA5ZjUwNy01MzFkLTRiY2EtODc4My1kNTQ3OTU3YzU0NWY1",
+      "description": "Explore two capabilities in the DevOps taxonomy, Continuous Security and Continuous Operations.",
+      "duration": 22,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.71,
+      "rating_count": 1029,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Explore DevOps Continuous Security and Continuous Operations",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/explore-devops-continuous-security-operations/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4yNzNhNzIzMS1iYmMyLTRiYjQtYjZlMS1mZDQ2MDgxZjE2NmQ1",
+      "description": "Implement CI/CD pipeline for Node.js applications. Automate deployment of Vue, React, Angular or webpack apps with Azure Pipelines.",
+      "duration": 44,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.9,
+      "rating_count": 41,
+      "role": "devops-engineer",
+      "source": "MS Learn",
+      "title": "Automate Node.js deployments with Azure Pipelines",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/deploy-nodejs/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 0.5217709,
+      "Key": "bXMtbGVhcm4yNzc4YWRlYi0zZDIwLTQxYTAtYTIyMy1iYTJmOWM1MjExNzM1",
+      "description": "DevOps is the union of people, process, and products to enable continuous delivery of value to our end users. Discover the first two foundation pillars of DevOps: Culture and Lean Product.",
+      "duration": 25,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure",
+      "rating_average": 4.69,
+      "rating_count": 3395,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Introduce the foundation pillars of DevOps: Culture and Lean Product",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/introduce-foundation-pillars-devops/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    }
+  ],
+  "@odata.nextLink": "https://anhth-ai-enriched-corporate-search-service.search.windows.net/indexes('azuretable-index')/docs?api-version=2021-04-30-Preview&search=azure&$skip=50"
+}
+
+2.
+Query: https://anhth-ai-enriched-corporate-search-service.search.windows.net/indexes/azuretable-index/docs?api-version=2021-04-30-Preview&search=intermediate
+Result: 
+{
+  "@odata.context": "https://anhth-ai-enriched-corporate-search-service.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 1.1114495,
+      "Key": "Y29tcGFueS1tb29kbGUzY2JiMzgwMC0yNTU0LTQxMjEtYmIzYS1mMzY1ZGViMGMzYjY1",
+      "description": "Learn our best practices for various tools such as Leaflet",
+      "duration": 2,
+      "instructor": "Robert Gillis",
+      "level": "intermediate",
+      "product": "leaflet",
+      "rating_average": 3.9,
+      "rating_count": 28,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "Maps",
+      "url": "https://www.example.com/course6",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "Y29tcGFueS1tb29kbGU1NzhhMzMxOS1hYTdjLTRkMmYtYjZhNC0zOWU5NjM4YjBhODU1",
+      "description": "For administrators, this course will teach you how our CI/CD pipelines work from an operations perspective",
+      "duration": 5,
+      "instructor": "Claudia Blackman",
+      "level": "intermediate",
+      "product": "jenkins",
+      "rating_average": 4.9,
+      "rating_count": 56,
+      "role": "admin",
+      "source": "Company Moodle",
+      "title": "DevOps for Ops",
+      "url": "https://www.example.com/course5",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "Y29tcGFueS1tb29kbGU2YjVkM2Y1NS1lYjAyLTQ5OWQtOTc3NS0yZTBlMjU2NTllMDc1",
+      "description": "Learn our company's Principles for the Responsible Use of AI",
+      "duration": 1,
+      "instructor": "Eileen Diaz",
+      "level": "intermediate",
+      "product": "NA",
+      "rating_average": 4.3,
+      "rating_count": 24,
+      "role": "architect",
+      "source": "Company Moodle",
+      "title": "Ethics in AI",
+      "url": "https://www.example.com/course12",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "Y29tcGFueS1tb29kbGViNTFlZGUxNC0wMjVmLTQ5YWQtOWU5ZS00NGFkMjg0ZWVkZGE1",
+      "description": "For developers, this course will teach you how to hook your dev work into our existing CI/CD pipelines.",
+      "duration": 3,
+      "instructor": "Claudia Blackman",
+      "level": "intermediate",
+      "product": "jenkins",
+      "rating_average": 3.8,
+      "rating_count": 101,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "DevOps for Dev",
+      "url": "https://www.example.com/course4",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "Y29tcGFueS1tb29kbGVkM2YwYzk1NS1hYzZlLTRjZWQtYjkxYi1mZmNlZjNlOGNlZGU1",
+      "description": "For developers, learn our best practices for writing secure code for web, server, and desktop development",
+      "duration": 3,
+      "instructor": "Eileen Diaz",
+      "level": "intermediate",
+      "product": "NA",
+      "rating_average": 4.4,
+      "rating_count": 132,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "Code security",
+      "url": "https://www.example.com/course9",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4wMGJhYWE3NS04OWZlLTRmODYtODA1Zi1mMDgzMzZlNmFmNDg1",
+      "description": "Explore the strategic components, use cases, and special factors of an enterprise AI strategy that creates real business value, with INSEAD and Microsoft.",
+      "duration": 70,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "m365",
+      "rating_average": 4.71,
+      "rating_count": 2779,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Define an AI strategy to create business value",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-strategy-to-create-business-value/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4wMTVjMjk0Ny04ZTRlLTQ0ZjUtYjM0Mi0wNTY0ZjBlZTJmYmY1",
+      "description": "Learn to manage LUIS apps through versioning, key management, handling data, and improving predictions.",
+      "duration": 24,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure",
+      "rating_average": 4.77,
+      "rating_count": 106,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Manage your Language Understanding Intelligent Service (LUIS) Apps",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/manage-language-understanding-intelligent-service-apps/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4wMWIxZTQyZC04MDI1LTQ4NjUtODQ4OC0wNmU5NDZmZDViZjM1",
+      "description": "In this module, we'll introduce you to Language Understanding Intelligent Service (LUIS) and show how to build and publish a LUIS model",
+      "duration": 54,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure-bot-service",
+      "rating_average": 4.67,
+      "rating_count": 1855,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Add conversational intelligence to your apps by using Language Understanding Intelligent Service (LUIS)",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-and-publish-a-luis-model/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4wMWJmNzA1Yi01Nzk4LTRhZGItYmE1Yy1lNWMwMThlNmU5YzI1",
+      "description": "Learn to identify valuable information in conversations with LUIS for interpreting user goals (intents) and distill valuable information from sentences (entities).",
+      "duration": 27,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure-cognitive-services",
+      "rating_average": 4.77,
+      "rating_count": 131,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Add basic conversational intelligence to your apps by using Language Understanding Intelligent Service (LUIS)",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/add-basic-conversational-intelligence/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4wMjFkNGFjNy00Yjk5LTQ1ZGUtOWQ2Zi05NzI1ODFkNzNjNDY1",
+      "description": "Learn to identify valuable information in conversations with LUIS for interpreting user goals (intents) and distill valuable information from sentences (entities).",
+      "duration": 27,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure-language-understanding",
+      "rating_average": 4.77,
+      "rating_count": 131,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Add basic conversational intelligence to your apps by using Language Understanding Intelligent Service (LUIS)",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/add-basic-conversational-intelligence/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4wMjkxMTljMy1jZDNjLTRhYzMtYmRhNi0wNmZlMzY0YjlhNTQ1",
+      "description": "Choose and implement a deployment pattern that helps you smoothly roll out new application features to your users.",
+      "duration": 60,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure-devops",
+      "rating_average": 4.72,
+      "rating_count": 604,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Manage release cadence in Azure Pipelines by using deployment patterns",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/manage-release-cadence/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4wM2I3MmViMC03OGUzLTQ0ZWItODNiOC0zZDRmMzVkNTQxYTE1",
+      "description": "Implement robotic process automation with Microsoft Power Automate, Teams, desktop flow, and AI Builder",
+      "duration": 34,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "power-platform",
+      "rating_average": 4.73,
+      "rating_count": 721,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Implement robotic process automation with Microsoft Power Automate, Teams, desktop flow, and AI Builder",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/implement-power-automate-ui-flows-ai-builder/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4wNDg5MzRhZi0wMmU0LTQzYjgtYmQyMi00OGI2YTExNGVmZGI1",
+      "description": "Use Python, Flask, and Azure Cognitive Services to build a web app that incorporates AI",
+      "duration": 75,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure",
+      "rating_average": 4.65,
+      "rating_count": 248,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Build an AI web app by using Python and Flask",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/python-flask-build-ai-web-app/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4wNWNjMTIyMS00MWM1LTRkYTAtOTY5Zi0wMGQ0Mzg2ZGM5YmY1",
+      "description": "Understand the key elements that make a culture AI-ready and a framework to drive the change needed in your organization for a successful AI strategy.",
+      "duration": 49,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "dynamics-365",
+      "rating_average": 4.74,
+      "rating_count": 1136,
+      "role": "functional-consultant",
+      "source": "MS Learn",
+      "title": "Understand the importance of building an AI-ready culture",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/build-an-ai-ready-culture/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4wNzI5MTU5NC00Y2M5LTQ5NzMtYjM2YS0xOGY4Mjc2N2RkYWM1",
+      "description": "Do you want to know how to configure and set up an automated build process? In this module, you'll learn how to configure CI/CD with Business Central applications, how to create pipelines using YAML files, and set up a release process.",
+      "duration": 43,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "dynamics-365",
+      "rating_average": 4.62,
+      "rating_count": 13,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Use Azure Pipelines for CI/CD with Business Central",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/use-azure-pipelines/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4wODU5NjAxYy03M2JiLTQwOTUtYWM1MC05NDg5MjIyZjA3OTA1",
+      "description": "Publish automatically and securely your code libraries or Docker images with GitHub Packages.",
+      "duration": 38,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "github",
+      "rating_average": 4.71,
+      "rating_count": 51,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Leverage GitHub Actions to publish to GitHub Packages",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/github-actions-packages/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4wODYyZjdlZi1jZDAyLTQ4YmItOTI1ZS01NmI2NmEwMWQ2MWQ1",
+      "description": "Use a release approval in Azure Pipelines to help coordinate database schema changes between developers and database administrators.",
+      "duration": 74,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure-devops",
+      "rating_average": 4.65,
+      "rating_count": 714,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Manage database changes in Azure Pipelines",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/manage-database-changes-in-azure-pipelines/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4wOTg2OGM1NS0yYjg3LTQ3NmYtOTE4OC03MDZiOTM2M2JkNjM1",
+      "description": "Learn how infrastructure as code enables you to describe and automatically provision the infrastructure that you need for your application.",
+      "duration": 122,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure",
+      "rating_average": 4.69,
+      "rating_count": 450,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Provision infrastructure in Azure Pipelines",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/provision-infrastructure-azure-pipelines/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4wYTg0MzVjNi1kOTJjLTRjYjAtODM0Ny01ZWZiMTAxMTEzYWY1",
+      "description": "Azure Pipelines help automate building, deploying, and maintaining your applications. While they support a wide range of platforms and programming languages, in this module you’ll focus on using them to implement ASP.NET apps on Azure App Service Web Apps with Azure SQL Database as their data store.",
+      "duration": 65,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure",
+      "rating_average": 4.85,
+      "rating_count": 13,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Deploy ASP.NET web apps with Azure Pipelines",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/deploy-aspnet-apps-azure-app-service-pipelines/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4wYjBiOTIwYi1hMWQ3LTRlZTMtOGQ4Yy01NjcwYjIxNDQ1MDg1",
+      "description": "Learn enterprise AI management with our free open online course, including machine learning.",
+      "duration": 30,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "m365",
+      "rating_average": 4.75,
+      "rating_count": 68,
+      "role": "functional-consultant",
+      "source": "MS Learn",
+      "title": "Start the machine learning lifecycle with MLOps",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/start-ml-lifecycle-mlops/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4wYjc5ZGM4OC0zZTlhLTQ3M2ItYmUwMC0wZTMwMzY3YjFlMjM1",
+      "description": "Implement GitHub Actions to build a container image and deploy to Azure Kubernetes Service.",
+      "duration": 54,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "dotnet",
+      "rating_average": 4.79,
+      "rating_count": 38,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Deploy a cloud-native ASP.NET Core microservice with GitHub Actions",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/microservices-devops-aspnet-core/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4wZDMwMGUzMy0yY2Q4LTRlY2UtOWZmNy01MzdmMTIyMjY1MmE1",
+      "description": "Learn the necessary cultural changes for enterprise marketing organizations to make AI transformation successful, and how they fit into a holistic AI strategy.",
+      "duration": 38,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "dynamics-365",
+      "rating_average": 4.77,
+      "rating_count": 717,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Discover how to foster an AI-ready culture in marketing",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/foster-ai-ready-culture-marketing/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4wZDU4NDc4Mi02OTU2LTQzMTctYTcwYy1hMGNjMTI0OGQ5MTA1",
+      "description": "Explore the strategic components, special factors, and use cases of an AI strategy in healthcare that creates business value, with INSEAD and Microsoft.",
+      "duration": 40,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure",
+      "rating_average": 4.78,
+      "rating_count": 736,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Define an AI strategy to create business value in healthcare",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-strategy-in-healthcare/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4wZWYxODdmYi1iNDU3LTRmZjYtYThlZi04YjM0NWI1YzI4OGM1",
+      "description": "Explore the strategic components, special factors, and use cases of an AI strategy in retail that creates business value, with INSEAD and Microsoft.",
+      "duration": 40,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure",
+      "rating_average": 4.77,
+      "rating_count": 703,
+      "role": "functional-consultant",
+      "source": "MS Learn",
+      "title": "Define an AI strategy to create business value in retail",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-strategy-in-retail/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4wZjQzMzY1Mi1mZTA1LTRkOGEtYjQ5ZC0xYmFkNTg1YjQ2MTg1",
+      "description": "Learn the necessary cultural changes for enterprise finance organizations to make AI transformation successful, and how they fit into a holistic AI strategy.",
+      "duration": 39,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "dynamics-365",
+      "rating_average": 4.8,
+      "rating_count": 756,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Discover how to foster an AI-ready culture in finance",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/foster-ai-ready-culture-finance/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4wZmNiNjAwYi00YmI1LTQ4MGMtOTdlZC02M2NmNmQ4NDJmZTg1",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": 46,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "vs-code",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4xMTU2N2QxZi04ZjA2LTQ1NzMtOWFkNC0yYjhlYjJkYmM0Nzk1",
+      "description": "Learn the necessary cultural changes for enterprise sales organizations to make AI transformation successful, and how they fit into a holistic AI strategy.",
+      "duration": 38,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure",
+      "rating_average": 4.7,
+      "rating_count": 581,
+      "role": "functional-consultant",
+      "source": "MS Learn",
+      "title": "Discover how to foster an AI-ready culture in sales",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/foster-ai-ready-culture-sales/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4xM2Y0NDJiMC1mMWQxLTQ0MDItOGMzZS0xM2YwYzhiNmNlOGQ1",
+      "description": "Create an Azure Cognitive Search solution",
+      "duration": 63,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure-cognitive-search",
+      "rating_average": 4.91,
+      "rating_count": 45,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Create an Azure Cognitive Search solution",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-azure-cognitive-search-solution/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4xNDViZjBlYi1lZGYzLTQ1MTgtYjg1OC00YWQxYTJmZmIwOGQ1",
+      "description": "Learn enterprise AI management with our free open online course, including machine learning.",
+      "duration": 30,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "m365",
+      "rating_average": 4.75,
+      "rating_count": 68,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Start the machine learning lifecycle with MLOps",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/start-ml-lifecycle-mlops/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4xNThlZmI0ZS04ZDJkLTRjNmUtYjc5Mi0xNTAyM2ZhZmYzZmY1",
+      "description": "Learn guiding principles for organizations, and how to choose and operationalize a governance system to responsibly and successfully use AI in the enterprise.",
+      "duration": 35,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "m365",
+      "rating_average": 4.77,
+      "rating_count": 429,
+      "role": "functional-consultant",
+      "source": "MS Learn",
+      "title": "Identify governing practices for responsible AI",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/responsible-ai-governing-practices/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4xNjY4MWMwNC1mODg1LTQ5ZDgtYWI3ZS1lNDc3OTM2YTZiZGM1",
+      "description": "Tune hyperparameters with Azure Machine Learning",
+      "duration": 46,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure-portal",
+      "rating_average": 4.76,
+      "rating_count": 544,
+      "role": "data-scientist",
+      "source": "MS Learn",
+      "title": "Tune hyperparameters with Azure Machine Learning",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/tune-hyperparameters-with-azure-machine-learning/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4xNmJkMGZlZC03NWY3LTRhMjQtYWQ5Zi1kNWI0OTY1MGQzZWI1",
+      "description": "Implement GitHub Actions to build a container image and deploy to Azure Kubernetes Service.",
+      "duration": 54,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure-container-registry",
+      "rating_average": 4.79,
+      "rating_count": 38,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Deploy a cloud-native ASP.NET Core microservice with GitHub Actions",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/microservices-devops-aspnet-core/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4xNzE4NTI4ZC1jOGY1LTRmMDctODlmOC04MmYwZDY5NzliMDc1",
+      "description": "Learn the basics of AI Builder usage in Microsoft Power Automate and how it can benefit your organization. ",
+      "duration": 60,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "power-platform",
+      "rating_average": 4.71,
+      "rating_count": 702,
+      "role": "maker",
+      "source": "MS Learn",
+      "title": "Use AI Builder in Power Automate",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-builder-power-automate/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4xNzVmYTNiMC1iYThiLTQyMGQtYTY0ZS1mMzZkYTJhNzIyYWU1",
+      "description": "Learn to identify valuable information in conversations with LUIS for interpreting user goals (intents) and distill valuable information from sentences (entities).",
+      "duration": 27,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure-cognitive-services",
+      "rating_average": 4.77,
+      "rating_count": 131,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Add basic conversational intelligence to your apps by using Language Understanding Intelligent Service (LUIS)",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/add-basic-conversational-intelligence/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4xODFiYmNmMC02NzEzLTRlZTctYjg1OC0zY2Y1NDY3NGVkMTg1",
+      "description": "Monitor models with Azure Machine Learning",
+      "duration": 39,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure-portal",
+      "rating_average": 4.75,
+      "rating_count": 504,
+      "role": "data-scientist",
+      "source": "MS Learn",
+      "title": "Monitor models with Azure Machine Learning",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/monitor-models-with-azure-machine-learning/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4xOGVlN2M1OS05NWQwLTQ3MDktYTVhMy02ZDEzNjcyOTE4YTM1",
+      "description": "Learn enterprise AI management with our free open online course, including machine learning.",
+      "duration": 30,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "dynamics-365",
+      "rating_average": 4.75,
+      "rating_count": 68,
+      "role": "functional-consultant",
+      "source": "MS Learn",
+      "title": "Start the machine learning lifecycle with MLOps",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/start-ml-lifecycle-mlops/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4xOTE4YmNjZS1jYjVhLTRkYjEtODcxZS0wNTJmNGFmNDZiNzk1",
+      "description": "Create a custom skill for Azure Cognitive Search",
+      "duration": 46,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure-functions",
+      "rating_average": 4.81,
+      "rating_count": 31,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Create a custom skill for Azure Cognitive Search",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-enrichment-pipeline-azure-cognitive-search/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4xOTQwOWQzMC1jOTY4LTQ4ZDctODNlMC0xNTI2MmMzYmYxMDk1",
+      "description": "Use a release approval in Azure Pipelines to help coordinate database schema changes between developers and database administrators.",
+      "duration": 74,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure-sql-database",
+      "rating_average": 4.65,
+      "rating_count": 714,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Manage database changes in Azure Pipelines",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/manage-database-changes-in-azure-pipelines/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4xOTYzOGZkNC01NDMyLTRiMDktOTY2MS04Njg3MDg5ZTc3ZTk1",
+      "description": "Overview GitHub's products, associated features, and licensing of per-use and metered features.",
+      "duration": 19,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "github",
+      "rating_average": 4.77,
+      "rating_count": 134,
+      "role": "technology-manager",
+      "source": "MS Learn",
+      "title": "Introduction to GitHub's Products",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/github-introduction-products/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4xYzk0M2EwNC02ZWY3LTQ0NjEtYTdkOC04N2I1MDgyODlhY2Q1",
+      "description": "Learn enterprise AI management with our free open online course, including scaling AI.",
+      "duration": 56,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure",
+      "rating_average": 4.81,
+      "rating_count": 42,
+      "role": "functional-consultant",
+      "source": "MS Learn",
+      "title": "Implement AI in your organization",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/implement-ai-organization/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4xZTUwNTJkYi0zNWRkLTQ2MDMtOTg3MC1lZTI3NTNhNmMxMTI1",
+      "description": "Explore six principles to guide AI development and use - fairness, reliability and safety, privacy and security, inclusiveness, transparency, and accountability",
+      "duration": 56,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "m365",
+      "rating_average": 4.71,
+      "rating_count": 956,
+      "role": "functional-consultant",
+      "source": "MS Learn",
+      "title": "Identify guiding principles for responsible AI",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/responsible-ai-principles/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4xZmM4MDA2Ni0zOTk5LTQ5NGItYTVlNS02YjczMjZiYTljYjI1",
+      "description": "Choose and implement a deployment pattern that helps you smoothly roll out new application features to your users.",
+      "duration": 60,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure-devops",
+      "rating_average": 4.72,
+      "rating_count": 604,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Manage release cadence in Azure Pipelines by using deployment patterns",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/manage-release-cadence/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4xZmYzMjJjYi1iNzNiLTQzNTUtODhiZi0wM2Y5YWMwYjIyMDY1",
+      "description": "In this module, we'll introduce you to Language Understanding Intelligent Service (LUIS) and show how to build and publish a LUIS model",
+      "duration": 54,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure-language-understanding",
+      "rating_average": 4.67,
+      "rating_count": 1855,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Add conversational intelligence to your apps by using Language Understanding Intelligent Service (LUIS)",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/create-and-publish-a-luis-model/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4yMDI3ODhmZi1hNTNjLTQ4YmItYmNjMy05ZWQwYmNjZGJhNWI1",
+      "description": "Learn how to use the Computer Vision API in Azure to identify facial details in pictures",
+      "duration": 53,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure-sdks",
+      "rating_average": 4.65,
+      "rating_count": 1512,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Identify faces and expressions by using the Computer Vision API in Azure Cognitive Services",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/identify-faces-with-computer-vision/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4yMTkxYzE5ZS1iZmZhLTQ0NWMtYmMxZi1lZDZlMGZiZjFmN2I1",
+      "description": "Choose and implement a deployment pattern that helps you smoothly roll out new application features to your users.",
+      "duration": 60,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure-devops",
+      "rating_average": 4.72,
+      "rating_count": 604,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Manage release cadence in Azure Pipelines by using deployment patterns",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/manage-release-cadence/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4yMTkzM2JmOS02OGQzLTQ2NDktYjU4YS03OWZiYjQ3NmJlMDI1",
+      "description": "Provision databases in Azure Pipelines",
+      "duration": 62,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure",
+      "rating_average": 0,
+      "rating_count": 0,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Provision databases in Azure Pipelines",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/provision-database-azure-pipelines/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4yMjEyMThmZS0yNDRhLTQxMDctYjQ0Yy1hNWEyMTVmNTIwZmE1",
+      "description": "Explore the strategic components, special factors, and use cases of an AI strategy in healthcare that creates business value, with INSEAD and Microsoft.",
+      "duration": 40,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "dynamics-365",
+      "rating_average": 4.78,
+      "rating_count": 736,
+      "role": "functional-consultant",
+      "source": "MS Learn",
+      "title": "Define an AI strategy to create business value in healthcare",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-strategy-in-healthcare/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4yNGVmMjQ1Yi0xZDUwLTQxYzAtOTA1My0zY2JmOWUxNDgxOTI1",
+      "description": "Explore the strategic components, special factors, and use cases of an AI strategy in manufacturing that creates business value, with INSEAD and Microsoft.",
+      "duration": 41,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "m365",
+      "rating_average": 4.76,
+      "rating_count": 778,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Define an AI strategy to create business value in manufacturing",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-strategy-in-manufacturing/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4yN2M3MGViYi0xYzFjLTQ1YTYtYjQwNy1iOTc2YmFhYTA5MGE1",
+      "description": "Learn how to deploy Azure Resource Manager (ARM) templates by using Azure PowerShell, the Azure CLI, and GitHub Actions.",
+      "duration": 66,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure",
+      "rating_average": 4.7,
+      "rating_count": 27,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Automate the deployment of ARM templates by using GitHub Actions",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/deploy-templates-command-line-github-actions/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1.1114495,
+      "Key": "bXMtbGVhcm4yOWFjM2UxNS0zYjBhLTRjMjItYmJhOC1hZGM3YTViYTQ4Mzg1",
+      "description": "Implement GitHub Actions to build a container image and deploy to Azure Kubernetes Service.",
+      "duration": 54,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "dotnet",
+      "rating_average": 4.79,
+      "rating_count": 38,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Deploy a cloud-native ASP.NET Core microservice with GitHub Actions",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/microservices-devops-aspnet-core/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "learn"
+      ]
+    }
+  ],
+  "@odata.nextLink": "https://anhth-ai-enriched-corporate-search-service.search.windows.net/indexes('azuretable-index')/docs?api-version=2021-04-30-Preview&search=intermediate&$skip=50"
+}

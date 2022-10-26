@@ -1,0 +1,13 @@
+I. Course Data
+	1. User can search the Course Data by the keywords.
+	2. User can filter the Course Data by level, role and product
+	3. User can sort the Course Data by duration or/and release date or/and course rating.
+II. Course
+	1. User can search the Course by source, role and skill.
+	2. User can filter the Course by source or/and type.
+II. Other
+	1. User can search the Journal Articles by authors, associated institutions, phrases and keywords.
+	2. User can search the Paper by publisher, publication date and name of the Paper.
+	3. Users can be able to see the DOI URL for document file in the results.
+
+		
